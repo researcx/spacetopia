@@ -1,0 +1,20 @@
+UI state info required:
+	Active page 					*
+	Slots 1 -3 						*
+	Exposed slot					*
+	Loaded DNA						*
+		Splicing (y/n)						*
+			Current splice line				*
+			Currently selected target	*
+			Splice source						*
+			Prediction							*
+		Analysis
+			Current analysis
+			Previous analysis
+			Current buffer
+			Stable / Transient states
+			
+
+			Select Target By Index function
+			Store target info serverside.
+			Synchronize target info between clients.

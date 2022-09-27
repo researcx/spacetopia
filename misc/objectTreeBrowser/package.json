@@ -1,0 +1,40 @@
+{
+  "name": "objectTreeBrowser",
+  "version": "0.0.1",
+  "description": "fuckin shit man fuck your descriptions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "shit",
+    "fuck",
+    "poo",
+    "gibs",
+    "spacemans"
+  ],
+  "author": "bill",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint-plugin-react": "^3.6.2",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1",
+    "gulp": "~3.9.0",
+    "xml2js": "~0.4.15",
+    "line-by-line": "~0.1.4",
+    "lodash": "~3.10.1",
+    "flux": "~2.1.1",
+    "react": "~0.14.3",
+    "react-treeview": "~0.4.2",
+    "react-dom": "^0.14.0",
+    "json-loader": "~0.5.4"
+  }
+}

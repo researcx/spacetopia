@@ -1,0 +1,42 @@
+////////////////////////////
+//SMALL SHIT
+////////////////////////////
+
+- make log parser webapp
+- hit solid walls with wrench etc to make bang bang sound/text
+
+
+////////////////////////////
+//CURRENT PROJECTS
+////////////////////////////
+
+- Organize and reduce verbs
+	* High priority given to cleaning up the admin interface
+	* Verbs should be moved into individual overarching menu windows that are accessed from ideally one tab (Admin)
+	* Right click menu should be kept tidier
+	* For normal players, verbs should be collected into one tab (e.g. Observe all on its own in the ghost tab urgh)
+
+- Fix up admin code that stuff is a mess guhhhh
+
+- Make the map the main and only element
+- Apply other windows as map overlay type windows
+- Convert the chat output box to a browser/html box
+
+
+////////////////////////////
+//PIPE DREAM PROJECTS
+////////////////////////////
+
+- Rewrite UI (with tobbas help)
+	* New UI should:
+		- Be asynchronous (update to game events in real time without stealing focus)
+		- Not have OS bordered windows (if possible)
+		- Draw from a CSS framework
+		- Allow proper caching of resources (images etc)
+	* Perhaps replace right click menus with skinned contextual menus (no idea if possible/a good idea)
+	* Explore how to remove the verbs tabs entirely
+		- Current verbs are fundamentally a poor way of interacting with commands
+		- Alternative: an overlay over the game window showing graphical icons + text for each command (easy for player, less so for admins)
+	* Explore how to make the chat window an overlay over the game so it doesn't take up half the dang screen
+
+boop12

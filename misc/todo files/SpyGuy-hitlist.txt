@@ -1,0 +1,19 @@
+################
+Death 2 lag
+################
+
+-Status_Controller.dm
+	* AI Stuff is fine
+	* It'd be easier to list what's not wrong with the status_display, though
+	
+	
+################
+Trophy wall (killed lag)
+################
+
+- TempEngine.dm , furnace.dm
+	* Furnace line 522
+		' Doing a bunch of new images / overlay operations every process()
+	
+- canister.dm
+	* Overlay shenanigans on every process()

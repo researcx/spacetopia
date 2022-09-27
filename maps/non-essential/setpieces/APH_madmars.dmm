@@ -1,0 +1,297 @@
+"aa" = (/turf/unsimulated/wall{icon = 'icons/obj/singularity.dmi'; icon_state = "TheSingMain"; name = "v-space"},/area/marsoutpost/duststorm)
+"ab" = (/turf/unsimulated/wall/setpieces/martian,/area/marsoutpost/duststorm)
+"ac" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (WEST)"; icon_state = "marshighw2"; dir = 8},/area/marsoutpost/duststorm)
+"ad" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw1 (EAST)"; icon_state = "marshighw1"; dir = 4},/area/marsoutpost/duststorm)
+"ae" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (EAST)"; icon_state = "marshighw2"; dir = 4},/area/marsoutpost/duststorm)
+"af" = (/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"ag" = (/turf/space,/area/marsoutpost/duststorm)
+"ah" = (/turf/unsimulated/wall{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"ai" = (/turf/unsimulated/wall{icon = 'icons/turf/martian.dmi'; icon_state = "wall1"; name = "organic wall"},/area/marsoutpost/duststorm)
+"aj" = (/obj/machinery/vending/kitchen,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"ak" = (/obj/submachine/chef_oven,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"al" = (/obj/table/wood/auto,/obj/submachine/mixer{pixel_y = 6},/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"am" = (/obj/storage/secure/closet/fridge/kitchen,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"an" = (/obj/machinery/vending/alcohol,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"ao" = (/obj/overlay{anchored = 1; desc = "Gross."; dir = 2; icon = 'icons/turf/martian.dmi'; icon_state = "sideWall"; name = "organic wall"; tag = "icon-sideWall (NORTH)"},/obj/storage/secure/closet/kitchen,/turf/unsimulated/floor{tag = "icon-plating_dusty1"; icon_state = "plating_dusty1"},/area/marsoutpost/duststorm)
+"ap" = (/obj/overlay{anchored = 1; desc = "Gross."; dir = 2; icon = 'icons/turf/martian.dmi'; icon_state = "sideWall"; name = "organic wall"; tag = "icon-sideWall (NORTH)"},/turf/unsimulated/floor{icon = 'icons/turf/martian.dmi'; icon_state = "floor1"; name = "organic floor"},/area/marsoutpost/duststorm)
+"aq" = (/turf/unsimulated/floor{icon = 'icons/turf/martian.dmi'; icon_state = "floor1"; name = "organic floor"},/turf/unsimulated/wall{icon = 'icons/turf/martian.dmi'; icon_state = "diagonalWall"; name = "organic wall"},/area/marsoutpost/duststorm)
+"ar" = (/turf/unsimulated/wall/setpieces/martian{tag = "icon-mars-s"; icon_state = "mars-s"},/area/marsoutpost/duststorm)
+"as" = (/obj/machinery/light/small{tag = "icon-bulb1 (WEST)"; icon_state = "bulb1"; dir = 8},/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"at" = (/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"au" = (/turf/unsimulated/floor{tag = "icon-plating_dusty1"; icon_state = "plating_dusty1"},/area/marsoutpost/duststorm)
+"av" = (/turf/unsimulated/floor{icon = 'icons/turf/martian.dmi'; icon_state = "floor1"; name = "organic floor"},/area/marsoutpost/duststorm)
+"aw" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (NORTHEAST)"; icon_state = "marshighw2"; dir = 5},/area/marsoutpost/duststorm)
+"ax" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw1 (NORTHWEST)"; icon_state = "marshighw1"; dir = 9},/area/marsoutpost/duststorm)
+"ay" = (/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"az" = (/turf/unsimulated/wall/setpieces/martian{tag = "icon-mars-c (NORTH)"; icon_state = "mars-c"; dir = 1},/area/marsoutpost/duststorm)
+"aA" = (/turf/unsimulated/wall/setpieces/martian{tag = "icon-mars-c (WEST)"; icon_state = "mars-c"; dir = 8},/area/marsoutpost/duststorm)
+"aB" = (/obj/overlay{tag = "icon-sideWall (EAST)"; name = "organic wall"; desc = "Gross."; icon = 'icons/turf/martian.dmi'; icon_state = "sideWall"; dir = 4; anchored = 1},/turf/unsimulated/floor{tag = "icon-plating_dusty1"; icon_state = "plating_dusty1"},/area/marsoutpost/duststorm)
+"aC" = (/obj/decal/cleanable/dirt,/turf/unsimulated/floor{tag = "icon-plating_dusty1"; icon_state = "plating_dusty1"},/area/marsoutpost/duststorm)
+"aD" = (/obj/table/wood/auto,/obj/item/storage/box/glassbox,/turf/unsimulated/floor{tag = "icon-plating_dusty1"; icon_state = "plating_dusty1"},/area/marsoutpost/duststorm)
+"aE" = (/obj/table/wood/auto,/turf/unsimulated/floor{icon = 'icons/turf/martian.dmi'; icon_state = "floor1"; name = "organic floor"},/area/marsoutpost/duststorm)
+"aF" = (/obj/submachine/chef_sink{tag = "icon-sink (WEST)"; icon_state = "sink"; dir = 8},/turf/unsimulated/floor{icon = 'icons/turf/martian.dmi'; icon_state = "floor1"; name = "organic floor"},/area/marsoutpost/duststorm)
+"aG" = (/obj/overlay{tag = "icon-sideWall (EAST)"; name = "organic wall"; desc = "Gross."; icon = 'icons/turf/martian.dmi'; icon_state = "sideWall"; dir = 4; anchored = 1},/turf/unsimulated/floor{icon = 'icons/turf/martian.dmi'; icon_state = "floor1"; name = "organic floor"},/area/marsoutpost/duststorm)
+"aH" = (/obj/overlay{tag = "icon-sideWall (NORTH)"; name = "organic wall"; desc = "Gross."; icon = 'icons/turf/martian.dmi'; icon_state = "sideWall"; dir = 1; anchored = 1},/turf/unsimulated/floor{icon = 'icons/turf/martian.dmi'; icon_state = "floor1"; name = "organic floor"},/area/marsoutpost/duststorm)
+"aI" = (/turf/unsimulated/floor{icon = 'icons/turf/martian.dmi'; icon_state = "floor1"; name = "organic floor"},/turf/unsimulated/wall{tag = "icon-diagonalWall (WEST)"; name = "organic wall"; icon = 'icons/turf/martian.dmi'; icon_state = "diagonalWall"; dir = 8},/area/marsoutpost/duststorm)
+"aJ" = (/turf/unsimulated/wall/setpieces/martian,/area)
+"aK" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw1 (SOUTHEAST)"; icon_state = "marshighw1"; dir = 6},/area/marsoutpost/duststorm)
+"aL" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (SOUTHEAST)"; icon_state = "marshighw2"; dir = 6},/area/marsoutpost/duststorm)
+"aM" = (/turf/unsimulated/wall/setpieces/martian{tag = "icon-mars-c (SOUTHWEST)"; icon_state = "mars-c"; dir = 10},/area/marsoutpost/duststorm)
+"aN" = (/turf/unsimulated/wall/setpieces/martian{tag = "icon-mars-c (NORTHWEST)"; icon_state = "mars-c"; dir = 9},/area/marsoutpost/duststorm)
+"aO" = (/turf/unsimulated/floor{icon = 'icons/turf/martian.dmi'; icon_state = "floor1"; name = "organic floor"},/turf/unsimulated/wall{tag = "icon-diagonalWall (NORTH)"; name = "organic wall"; icon = 'icons/turf/martian.dmi'; icon_state = "diagonalWall"; dir = 1},/area/marsoutpost/duststorm)
+"aP" = (/obj/machinery/door/unpowered/wood,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"aQ" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2"; icon_state = "marshighw2"},/area/marsoutpost/duststorm)
+"aR" = (/obj/machinery/chem_dispenser/soda,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"aS" = (/turf/unsimulated/wall/setpieces/martian{tag = "icon-mars-s (EAST)"; icon_state = "mars-s"; dir = 4},/area/marsoutpost/duststorm)
+"aT" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw1 (NORTH)"; icon_state = "marshighw1"; dir = 1},/area/marsoutpost/duststorm)
+"aU" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_rock"; icon_state = "mars_rock"},/area/marsoutpost/duststorm)
+"aV" = (/obj/machinery/vending/fortune,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"aW" = (/obj/submachine/slot_machine,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"aX" = (/obj/machinery/chem_dispenser/alcohol,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"aY" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (NORTH)"; icon_state = "marshighw2"; dir = 1},/area/marsoutpost/duststorm)
+"aZ" = (/obj/decal/fakeobjects{tag = "icon-solar_panel (SOUTHWEST)"; name = "solar panel"; desc = "It's probably broken."; icon = 'icons/obj/power.dmi'; icon_state = "solar_panel"; dir = 10},/turf/unsimulated/floor{tag = "icon-plating_dusty2"; icon_state = "plating_dusty2"},/area/marsoutpost/duststorm)
+"ba" = (/obj/decal/fakeobjects{tag = "icon-2-6"; name = "power cable"; icon = 'icons/obj/power_cond.dmi'; icon_state = "2-6"; color = "#DD0000"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"bb" = (/turf/unsimulated/wall{icon_state = "wooden-window"; name = "window"; opacity = 0; tag = "icon-wooden-window"},/area/marsoutpost/duststorm)
+"bc" = (/turf/unsimulated/floor{tag = "icon-carpetNW"; icon_state = "carpetNW"},/area/marsoutpost/duststorm)
+"bd" = (/turf/unsimulated/floor{tag = "icon-carpetN"; icon_state = "carpetN"},/area/marsoutpost/duststorm)
+"be" = (/turf/unsimulated/floor{tag = "icon-carpetNE"; icon_state = "carpetNE"},/area/marsoutpost/duststorm)
+"bf" = (/obj/table/reinforced/bar,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bg" = (/obj/table/reinforced/bar,/obj/npc/trader/exclown{icon_state = "saloon"; pixel_y = 32; tag = "icon-saloon"},/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bh" = (/obj/table/reinforced/bar,/obj/machinery/cashreg,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bi" = (/obj/decal/fakeobjects{tag = "icon-1-6"; name = "power cable"; icon = 'icons/obj/power_cond.dmi'; icon_state = "1-6"; color = "#DD0000"},/obj/decal/fakeobjects{tag = "icon-4-6"; name = "power cable"; icon = 'icons/obj/power_cond.dmi'; icon_state = "4-6"; color = "#DD0000"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"bj" = (/obj/decal/fakeobjects{tag = "icon-1-8"; name = "power cable"; icon = 'icons/obj/power_cond.dmi'; icon_state = "1-8"; color = "#DD0000"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"bk" = (/obj/decal/fakeobjects{tag = "icon-2-9"; name = "power cable"; icon = 'icons/obj/power_cond.dmi'; icon_state = "2-9"; color = "#DD0000"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"bl" = (/turf/unsimulated/floor{tag = "icon-carpetW"; icon_state = "carpetW"},/area/marsoutpost/duststorm)
+"bm" = (/turf/unsimulated/floor{tag = "icon-carpet"; icon_state = "carpet"},/area/marsoutpost/duststorm)
+"bn" = (/obj/stool/chair/wooden,/turf/unsimulated/floor{tag = "icon-carpetE"; icon_state = "carpetE"},/area/marsoutpost/duststorm)
+"bo" = (/obj/stool/bar,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bp" = (/obj/submachine/ATM{pixel_y = 32},/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bq" = (/obj/decal/jukebox,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"br" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff1 (SOUTHEAST)"; icon_state = "mars_cliff1"; dir = 6},/area/marsoutpost/duststorm)
+"bs" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff1 (SOUTHWEST)"; icon_state = "mars_cliff1"; dir = 10},/area/marsoutpost/duststorm)
+"bt" = (/obj/decal/fakeobjects{tag = "icon-8-9"; name = "power cable"; icon = 'icons/obj/power_cond.dmi'; icon_state = "8-9"; color = "#DD0000"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"bu" = (/obj/decal/fakeobjects{color = "#DD0000"; icon = 'icons/obj/power_cond.dmi'; icon_state = "1-2"; name = "power cable"; tag = "icon-1-2"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"bv" = (/turf/unsimulated/wall{icon_state = "mars-reg"},/area/marsoutpost/duststorm)
+"bw" = (/obj/securearea{desc = ""; icon_state = "shock"; name = "Danger: High Voltage"; pixel_x = -32; tag = "icon-shock"},/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bx" = (/obj/stool/chair/wooden{tag = "icon-chair_wooden (EAST)"; icon_state = "chair_wooden"; dir = 4},/turf/unsimulated/floor{tag = "icon-carpet"; icon_state = "carpet"},/area/marsoutpost/duststorm)
+"by" = (/obj/table/wood/round,/turf/unsimulated/floor{tag = "icon-carpetE"; icon_state = "carpetE"},/area/marsoutpost/duststorm)
+"bz" = (/obj/stool/chair/wooden,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bA" = (/obj/item/cigbutt,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bB" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff1 (EAST)"; icon_state = "mars_cliff1"; dir = 4},/area/marsoutpost/duststorm)
+"bC" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff2 (WEST)"; icon_state = "mars_cliff2"; dir = 8},/area/marsoutpost/duststorm)
+"bD" = (/obj/decal/fakeobjects{tag = "icon-1-6"; name = "power cable"; icon = 'icons/obj/power_cond.dmi'; icon_state = "1-6"; color = "#DD0000"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"bE" = (/obj/decal/fakeobjects{desc = "A very primitive one, at that."; icon = 'icons/obj/machines/nuclear.dmi'; icon_state = "engineoff"; name = "power storage unit"; tag = "icon-engineoff"},/turf/unsimulated/floor{tag = "icon-floor_hazard_misc (SOUTHEAST)"; icon_state = "floor_hazard_misc"; dir = 6},/area/marsoutpost/duststorm)
+"bF" = (/obj/stool/chair/wooden,/turf/unsimulated/floor{tag = "icon-carpetW"; icon_state = "carpetW"},/area/marsoutpost/duststorm)
+"bG" = (/obj/stool/chair/wooden{tag = "icon-chair_wooden (NORTH)"; icon_state = "chair_wooden"; dir = 1},/turf/unsimulated/floor{tag = "icon-carpetE"; icon_state = "carpetE"},/area/marsoutpost/duststorm)
+"bH" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff1 (NORTHEAST)"; icon_state = "mars_cliff1"; dir = 5},/area/marsoutpost/duststorm)
+"bI" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff1 (NORTH)"; icon_state = "mars_cliff1"; dir = 1},/area/marsoutpost/duststorm)
+"bJ" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff1 (NORTHWEST)"; icon_state = "mars_cliff1"; dir = 9},/area/marsoutpost/duststorm)
+"bK" = (/obj/stool/chair/wooden{tag = "icon-chair_wooden (EAST)"; icon_state = "chair_wooden"; dir = 4},/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bL" = (/obj/table/wood/round,/obj/item/card_box/suit{pixel_y = 5},/turf/unsimulated/floor{tag = "icon-carpetW"; icon_state = "carpetW"},/area/marsoutpost/duststorm)
+"bM" = (/obj/stool/chair/wooden,/turf/unsimulated/floor{tag = "icon-carpet"; icon_state = "carpet"},/area/marsoutpost/duststorm)
+"bN" = (/turf/unsimulated/floor{tag = "icon-carpetE"; icon_state = "carpetE"},/area/marsoutpost/duststorm)
+"bO" = (/obj/stool/chair/wooden{tag = "icon-chair_wooden (EAST)"; icon_state = "chair_wooden"; dir = 4},/turf/unsimulated/floor{tag = "icon-carpetE"; icon_state = "carpetE"},/area/marsoutpost/duststorm)
+"bP" = (/obj/table/wood/round,/obj/item/fiddle{pixel_y = 6},/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bQ" = (/obj/stool/chair/wooden{tag = "icon-chair_wooden (WEST)"; icon_state = "chair_wooden"; dir = 8},/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bR" = (/obj/stool/chair/wooden{tag = "icon-chair_wooden (NORTH)"; icon_state = "chair_wooden"; dir = 1},/turf/unsimulated/floor{tag = "icon-carpetSW"; icon_state = "carpetSW"},/area/marsoutpost/duststorm)
+"bS" = (/turf/unsimulated/floor{tag = "icon-carpetS"; icon_state = "carpetS"},/area/marsoutpost/duststorm)
+"bT" = (/turf/unsimulated/floor{tag = "icon-carpetSE"; icon_state = "carpetSE"},/area/marsoutpost/duststorm)
+"bU" = (/obj/table/wood/round,/obj/item/reagent_containers/food/drinks/drinkingglass,/turf/unsimulated/floor{tag = "icon-carpetSW"; icon_state = "carpetSW"},/area/marsoutpost/duststorm)
+"bV" = (/obj/stool/chair/wooden{tag = "icon-chair_wooden (WEST)"; icon_state = "chair_wooden"; dir = 8},/turf/unsimulated/floor{tag = "icon-carpetS"; icon_state = "carpetS"},/area/marsoutpost/duststorm)
+"bW" = (/turf/unsimulated/floor/setpieces/martian/cliff,/area/marsoutpost/duststorm)
+"bX" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff2"; icon_state = "mars_cliff2"; dir = 2},/area/marsoutpost/duststorm)
+"bY" = (/obj/table/wood/round,/turf/unsimulated/floor{tag = "icon-wooden"; icon_state = "wooden"},/area/marsoutpost/duststorm)
+"bZ" = (/turf/unsimulated/floor{dir = 2; icon_state = "wood2_stairs2"; name = "floor"; tag = "icon-wood2_stairs2"},/area/marsoutpost/duststorm)
+"ca" = (/turf/unsimulated/floor{dir = 6; icon_state = "wood2_stairs"; name = "floor"; tag = "icon-wood2_stairs (SOUTHEAST)"},/area/marsoutpost/duststorm)
+"cb" = (/turf/unsimulated/floor{dir = 6; icon_state = "wood2_stairs2"; name = "floor"; tag = "icon-wood2_stairs2 (SOUTHEAST)"},/area/marsoutpost/duststorm)
+"cc" = (/obj/stool/chair/wooden,/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cd" = (/obj/table/wood/round,/obj/decal/cleanable/dirt/mars,/obj/item/cigpacket,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"ce" = (/obj/stool/chair/wooden,/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (EAST)"; icon_state = "marshighw2"; dir = 4},/area/marsoutpost/duststorm)
+"cf" = (/turf/unsimulated/wall/setpieces/martian{tag = "icon-mars-s (WEST)"; icon_state = "mars-s"; dir = 8},/area/marsoutpost/duststorm)
+"cg" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff2 (NORTH)"; icon_state = "mars_cliff2"; dir = 1},/area/marsoutpost/duststorm)
+"ch" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff1 (WEST)"; icon_state = "mars_cliff1"; dir = 8},/area/marsoutpost/duststorm)
+"ci" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (WEST)"; icon_state = "marshighw2"; dir = 8},/area/marsoutpost/duststorm)
+"cj" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"ck" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw1 (SOUTHEAST)"; icon_state = "marshighw1"; dir = 6},/area/marsoutpost/duststorm)
+"cl" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (NORTH)"; icon_state = "marshighw2"; dir = 1},/area/marsoutpost/duststorm)
+"cm" = (/obj/decal/cleanable/dirt/mars,/obj/item/cigbutt,/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (NORTH)"; icon_state = "marshighw2"; dir = 1},/area/marsoutpost/duststorm)
+"cn" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (SOUTHEAST)"; icon_state = "marshighw2"; dir = 6},/area/marsoutpost/duststorm)
+"co" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw1 (NORTHEAST)"; icon_state = "marshighw1"; dir = 5},/area/marsoutpost/duststorm)
+"cp" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (NORTHWEST)"; icon_state = "marshighw2"; dir = 9},/area/marsoutpost/duststorm)
+"cq" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (SOUTHWEST)"; icon_state = "marshighw2"; dir = 10},/area/marsoutpost/duststorm)
+"cr" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{icon_state = "corner_nwest"; tag = "icon-corner_east"},/area/marsoutpost/duststorm)
+"cs" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{icon_state = "corner_neast"; tag = "icon-corner_east"},/area/marsoutpost/duststorm)
+"ct" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (SOUTHWEST)"; icon_state = "marshighw2"; dir = 10},/area/marsoutpost/duststorm)
+"cu" = (/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw1 (SOUTHWEST)"; icon_state = "marshighw1"; dir = 10},/area/marsoutpost/duststorm)
+"cv" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-caution_west"; icon_state = "caution_west"},/area/marsoutpost/duststorm)
+"cw" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-caution_east (WEST)"; icon_state = "caution_east"; dir = 8},/area/marsoutpost/duststorm)
+"cx" = (/turf/unsimulated/floor/setpieces/martian/cliff{tag = "icon-mars_cliff2 (EAST)"; icon_state = "mars_cliff2"; dir = 4},/area/marsoutpost/duststorm)
+"cy" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{dir = 1; icon_state = "corner_west"; tag = "icon-corner_east"},/area/marsoutpost/duststorm)
+"cz" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-corner_east"; icon_state = "corner_east"},/area/marsoutpost/duststorm)
+"cA" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor/setpieces/martian/highway{tag = "icon-marshighw2 (EAST)"; icon_state = "marshighw2"; dir = 4},/area/marsoutpost/duststorm)
+"cB" = (/obj/decal/cleanable/dirt,/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"cC" = (/obj/decal/fakeobjects/mars_billboard,/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"cD" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-floor_hazard_misc (SOUTHEAST)"; icon_state = "floor_hazard_misc"; dir = 6},/area/marsoutpost/duststorm)
+"cE" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-caution_ns"; icon_state = "caution_ns"},/area/marsoutpost/duststorm)
+"cF" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-caution_we"; icon_state = "caution_we"},/area/marsoutpost/duststorm)
+"cG" = (/obj/decal/fakeobjects/oldcanister{tag = "icon-old_co2"; icon_state = "old_co2"},/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cH" = (/obj/item/parts/robot_parts/robot_frame,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cI" = (/obj/decal/cleanable/machine_debris{tag = "icon-gib7"; icon_state = "gib7"},/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cJ" = (/obj/decal/cleanable/dirt,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cK" = (/obj/item/mars_roverpart/glass,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cL" = (/obj/decal/fakeobjects/robot{anchored = 1; desc = "Most of it's electronics appear to be destroyed."; icon = 'icons/misc/critter.dmi'; icon_state = "mars_bot-dead"; name = "Smashed Robot"},/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cM" = (/obj/machinery/light/beacon,/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"cN" = (/obj/item/guardbot_frame/old{desc = "The casing of some kind of robot."; name = "robot frame"},/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cO" = (/obj/decal/fakeobjects/shuttleengine,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cP" = (/obj/stool/chair{dir = 8},/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cQ" = (/obj/item/parts/robot_parts/leg/right/light,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cR" = (/obj/decal/cleanable/machine_debris{tag = "icon-gib6"; icon_state = "gib6"},/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cS" = (/obj/decal/cleanable/machine_debris,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cT" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-plating_dusty2"; icon_state = "plating_dusty2"},/area/marsoutpost/duststorm)
+"cU" = (/obj/item/mars_roverpart/battery,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cV" = (/obj/item/mars_roverpart/motherboard,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cW" = (/obj/item/pen,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"cX" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-caution_north"; icon_state = "caution_north"},/area/marsoutpost/duststorm)
+"cY" = (/obj/decal/cleanable/machine_debris{tag = "icon-gib3"; icon_state = "gib3"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"cZ" = (/obj/decal/cleanable/paper,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"da" = (/obj/item/mars_roverpart/wheel,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"db" = (/obj/decal/fakeobjects/mule_xl{pixel_y = 6},/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-caution_south"; icon_state = "caution_south"},/area/marsoutpost/duststorm)
+"dc" = (/obj/item/mars_roverpart/oxy,/turf/unsimulated/floor/setpieces/martian/highway,/area/marsoutpost/duststorm)
+"dd" = (/obj/item/guardbot_core/old{desc = "The mainboard of some kind of robot."; name = "robot mainboard"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"de" = (/obj/decal/cleanable/dirt/mars,/obj/item/crowbar,/turf/unsimulated/floor{icon_state = "corner_nwest"; tag = "icon-corner_east"},/area/marsoutpost/duststorm)
+"df" = (/turf/unsimulated/floor{tag = "icon-yellow"; icon_state = "yellow"},/area/marsoutpost/duststorm)
+"dg" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-yellow"; icon_state = "yellow"},/area/marsoutpost/duststorm)
+"dh" = (/obj/decal/cleanable/generic,/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"di" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-caution_south"; icon_state = "caution_south"},/area/marsoutpost/duststorm)
+"dj" = (/turf/unsimulated/floor{tag = "icon-caution_south"; icon_state = "caution_south"},/area/marsoutpost/duststorm)
+"dk" = (/obj/machinery/conveyor{basedir = 8; dir = 8; id = "mars_disposal"; name = "waste disposal conveyor belt"},/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-plating_dusty2"; icon_state = "plating_dusty2"},/area/marsoutpost/duststorm)
+"dl" = (/obj/machinery/conveyor{basedir = 8; dir = 8; id = "mars_disposal"; name = "waste disposal conveyor belt"},/turf/unsimulated/floor{tag = "icon-plating_dusty1"; icon_state = "plating_dusty1"},/area/marsoutpost/duststorm)
+"dm" = (/obj/machinery/conveyor{basedir = 8; dir = 8; id = "mars_disposal"; name = "waste disposal conveyor belt"},/turf/simulated/floor{icon_state = "caution_ns"; tag = "icon-caution_east"},/area/marsoutpost/duststorm)
+"dn" = (/obj/storage/cart/trash,/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{icon_state = "corner_nwest"; tag = "icon-corner_east"},/area/marsoutpost/duststorm)
+"do" = (/turf/unsimulated/floor{tag = "icon-caution_north"; icon_state = "caution_north"},/area/marsoutpost/duststorm)
+"dp" = (/turf/unsimulated/wall/setpieces/martian{tag = "icon-mars-c (SOUTHEAST)"; icon_state = "mars-c"; dir = 6},/area/marsoutpost/duststorm)
+"dq" = (/obj/decal/cleanable/dirt/mars,/obj/storage/cart/trash,/turf/unsimulated/floor{dir = 8; icon_state = "caution_west"},/area/marsoutpost/duststorm)
+"dr" = (/obj/decal/cleanable/oil,/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"ds" = (/obj/decal/fakeobjects/mule_xl{dir = 1; icon_state = "mule-xl"; pixel_y = 6; tag = "icon-mule-xl (NORTH)"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"dt" = (/turf/unsimulated/floor{tag = "icon-fullyellow (WEST)"; icon_state = "fullyellow"; dir = 8},/area/marsoutpost/duststorm)
+"du" = (/turf/unsimulated/floor{tag = "icon-yellow (NORTH)"; icon_state = "yellow"; dir = 1},/area/marsoutpost/duststorm)
+"dv" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{tag = "icon-yellow (NORTH)"; icon_state = "yellow"; dir = 1},/area/marsoutpost/duststorm)
+"dw" = (/obj/storage/cart/trash,/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{dir = 8; icon_state = "caution_west"},/area/marsoutpost/duststorm)
+"dx" = (/obj/decal/cleanable/machine_debris{tag = "icon-gib7"; icon_state = "gib7"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"dy" = (/turf/unsimulated/wall/setpieces/martian{tag = "icon-mars-s (NORTH)"; icon_state = "mars-s"; dir = 1},/area/marsoutpost/duststorm)
+"dz" = (/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{dir = 8; icon_state = "caution_west"},/area/marsoutpost/duststorm)
+"dA" = (/obj/decal/fakeobjects/pipe{density = 1; desc = "It probably doesn't work anymore."; dir = 2; icon = 'icons/obj/machines/mindswap.dmi'; icon_state = "mindswap"; name = "fuel pump"; tag = "icon-mindswap"},/turf/unsimulated/floor{icon_state = "floorgrime"},/area/marsoutpost/duststorm)
+"dB" = (/obj/decal/cleanable/dirt/mars,/obj/decal/fakeobjects/pipe{tag = "icon-intact (EAST)"; icon_state = "intact"; dir = 4},/obj/decal/fakeobjects/pipe{density = 1; desc = "An old plasma tank that probably ran out eons ago."; dir = 8; icon = 'icons/obj/atmospherics/tanks/orange_pipe_tank.dmi'; icon_state = "intact"; name = "depleted plasma tank"; tag = ""},/turf/unsimulated/floor{icon_state = "floorgrime"},/area/marsoutpost/duststorm)
+"dC" = (/obj/decal/fakeobjects/pipe{density = 1; desc = "An old plasma tank that probably ran out eons ago."; dir = 8; icon = 'icons/obj/atmospherics/tanks/grey_pipe_tank.dmi'; icon_state = "intact"; name = "depleted plasma tank"; tag = ""},/obj/decal/cleanable/dirt/mars,/turf/unsimulated/floor{icon_state = "floorgrime"},/area/marsoutpost/duststorm)
+"dD" = (/obj/decal/fakeobjects/pipe{tag = "icon-intact (EAST)"; icon_state = "intact"; dir = 4},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"dE" = (/obj/decal/fakeobjects/pipe{tag = "icon-intact (SOUTHWEST)"; icon_state = "intact"; dir = 10},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"dF" = (/obj/decal/fakeobjects/pipe,/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"dG" = (/turf/unsimulated/floor{icon_state = "corner_nwest"; tag = "icon-corner_east"},/area/marsoutpost/duststorm)
+"dH" = (/turf/unsimulated/floor{icon_state = "corner_neast"; tag = "icon-corner_east"},/area/marsoutpost/duststorm)
+"dI" = (/obj/item/guardbot_frame/old{desc = "The casing of some kind of robot."; name = "robot frame"},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"dJ" = (/turf/unsimulated/floor{tag = "icon-caution_west"; icon_state = "caution_west"},/area/marsoutpost/duststorm)
+"dK" = (/turf/unsimulated/floor{tag = "icon-caution_east (WEST)"; icon_state = "caution_east"; dir = 8},/area/marsoutpost/duststorm)
+"dL" = (/turf/unsimulated/wall{icon_state = "mars-reg"},/area/marsoutpost)
+"dM" = (/obj/decal/fakeobjects/firelock_broken{tag = "icon-bdoorbroken (EAST)"; name = "rusty blastdoor"; desc = "This blast door looks rusted over.  Junk."; icon = 'icons/obj/doors/blastdoor.dmi'; icon_state = "bdoorbroken"; dir = 4},/turf/unsimulated/floor{tag = "icon-plating_dusty2"; icon_state = "plating_dusty2"},/area/marsoutpost)
+"dN" = (/obj/decal/fakeobjects/firelock_broken{tag = "icon-bdoorbroken"; name = "rusty blastdoor"; desc = "This blast door looks rusted over.  Junk."; icon = 'icons/obj/doors/blastdoor.dmi'; icon_state = "bdoorbroken"; dir = 2},/turf/unsimulated/floor{tag = "icon-plating_dusty2"; icon_state = "plating_dusty2"},/area/marsoutpost)
+"dO" = (/obj/decal/fakeobjects/firelock_broken{tag = "icon-bdoorbroken (SOUTHEAST)"; name = "rusty blastdoor"; desc = "This blast door looks rusted over.  Junk."; icon = 'icons/obj/doors/blastdoor.dmi'; icon_state = "bdoorbroken"; dir = 6},/turf/unsimulated/floor{tag = "icon-plating_dusty2"; icon_state = "plating_dusty2"},/area/marsoutpost)
+"dP" = (/obj/machinery/door/airlock{name = "Refueling Station"},/turf/unsimulated/floor{icon_state = "floorgrime"},/area/marsoutpost)
+"dQ" = (/obj/grille/steel,/obj/window/reinforced/south,/obj/window/reinforced/north,/obj/window/reinforced/west,/turf/unsimulated/floor,/area/marsoutpost)
+"dR" = (/obj/grille/steel,/obj/window/reinforced/south,/obj/window/reinforced/north,/turf/unsimulated/floor,/area/marsoutpost)
+"dS" = (/obj/grille/steel,/obj/window/reinforced/south,/obj/window/reinforced/north,/obj/window/reinforced/east,/turf/unsimulated/floor,/area/marsoutpost)
+"dT" = (/turf/unsimulated/floor{tag = "icon-corner_west"; icon_state = "corner_west"; dir = 2},/area/marsoutpost/duststorm)
+"dU" = (/turf/unsimulated/floor{tag = "icon-corner_east"; icon_state = "corner_east"},/area/marsoutpost/duststorm)
+"dV" = (/turf/unsimulated/floor{tag = "icon-plating_dusty1"; icon_state = "plating_dusty1"},/area/marsoutpost)
+"dW" = (/turf/unsimulated/floor{tag = "icon-floorgrime_gb1"; icon_state = "floorgrime_gb1"},/area/marsoutpost)
+"dX" = (/obj/bookcase/button,/turf/unsimulated/floor{tag = "icon-floorgrime_gb1"; icon_state = "floorgrime_gb1"},/area/marsoutpost)
+"dY" = (/obj/table/reinforced/auto,/turf/unsimulated/floor{icon_state = "floorgrime"},/area/marsoutpost)
+"dZ" = (/obj/npc/trader/exclown{tag = "icon-twinbuddy"; icon_state = "twinbuddy"},/turf/unsimulated/floor{icon_state = "floorgrime"},/area/marsoutpost)
+"ea" = (/turf/unsimulated/floor{icon_state = "floorgrime"},/area/marsoutpost)
+"eb" = (/obj/decal/fakeobjects/pipe{tag = "icon-intact (NORTHWEST)"; icon_state = "intact"; dir = 9},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"ec" = (/turf/unsimulated/floor{tag = "icon-plating_dusty2"; icon_state = "plating_dusty2"},/area/marsoutpost/duststorm)
+"ed" = (/obj/machinery/light/small{dir = 8},/turf/unsimulated/floor{tag = "icon-plating_dusty1"; icon_state = "plating_dusty1"},/area/marsoutpost)
+"ee" = (/obj/storage/cart/mechcart,/turf/unsimulated/floor{icon_state = "floorgrime"},/area/marsoutpost)
+"ef" = (/obj/grille/steel,/obj/window/reinforced/east,/obj/window/reinforced/west,/obj/window/reinforced/north,/turf/unsimulated/floor,/area/marsoutpost)
+"eg" = (/obj/decal/fakeobjects/pipe{tag = "icon-default"; name = "depleted plasma tank"; desc = "An old plasma tank that probably ran out eons ago."; icon = 'icons/obj/atmospherics/tanks/orange_pipe_tank.dmi'; icon_state = ""; dir = 2; density = 1},/turf/unsimulated/floor/setpieces/martian,/area/marsoutpost/duststorm)
+"eh" = (/obj/reagent_dispensers/fueltank,/turf/unsimulated/floor{tag = "icon-plating_dusty1"; icon_state = "plating_dusty1"},/area/marsoutpost)
+"ei" = (/obj/decal/fakeobjects/firelock_broken{desc = "Rust has rendered this airlock useless."; icon = 'icons/misc/rstation.dmi'; icon_state = "maint-gap"; name = "rusted airlock"; tag = "icon-bloodydoor"},/turf/unsimulated/floor{tag = "icon-floorgrime_gb1"; icon_state = "floorgrime_gb1"},/area/marsoutpost)
+"ej" = (/obj/grille/steel,/obj/window/reinforced/east,/obj/window/reinforced/south,/obj/window/reinforced/west,/turf/unsimulated/floor,/area/marsoutpost)
+"ek" = (/obj/mars_roverpuzzle,/turf/unsimulated/floor{icon_state = "floorgrime"},/area/marsoutpost)
+"el" = (/obj/decal/fakeobjects{tag = "icon-robust-broken"; name = "broken vending machine"; desc = "The goods inside the machine probably expired before you were even born."; icon = 'icons/obj/vending.dmi'; icon_state = "robust-broken"},/turf/unsimulated/floor{tag = "icon-floorgrime_gb1"; icon_state = "floorgrime_gb1"},/area/marsoutpost)
+"em" = (/obj/decal/fakeobjects{tag = "icon-snack-broken"; name = "broken vending machine"; desc = "The goods inside the machine probably expired before you were even born."; icon = 'icons/obj/vending.dmi'; icon_state = "snack-broken"},/turf/unsimulated/floor{tag = "icon-floorgrime_gb1"; icon_state = "floorgrime_gb1"},/area/marsoutpost)
+"en" = (/obj/decal/fakeobjects/lighttube_broken,/turf/unsimulated/floor{tag = "icon-floorgrime_gb1"; icon_state = "floorgrime_gb1"},/area/marsoutpost)
+"eo" = (/obj/machinery/light,/turf/unsimulated/floor{tag = "icon-floorgrime_gb1"; icon_state = "floorgrime_gb1"},/area/marsoutpost)
+"ep" = (/turf/unsimulated/wall/setpieces/martian{tag = "icon-mars-c"; icon_state = "mars-c"},/area/marsoutpost/duststorm)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababacadaeafagagagagafafafafababababababababafabababababaa
+aaabababababababababababababababababababababababafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafacadaeafagagagagafafafabababababababababafabababababaa
+aaabababababababababababababababababababababafafafafafafafafafafafafafafafafabababababafabababababafababababafafafababababafafafafabababababafafabafafafabafabababababafabababababafafafafafafafafafafafacadaeafagagagagafafabababafafafafafafafafabababababaa
+aaababababababababababababababababababafafafafafafafafafafafafafafafafafafafabafabafabafabafafafabafabafafabafafafabafafafafafafafabafafafabafafabafafafabafafafabafafafabafafafabafafafafafafafafafafafacadaeafagagagagafafabababafafafafafafafafabababababaa
+aaabababababababababababababababababafafafafafafafafafafafafafafafafafafafafabafabafabafabababababafababababafafafababababafafafafabafafafabafafabafafafabafafafabafafafabafafafabafafafafafafafafafafafacadaeafagagagagafafafababafafafafafafafababababababaa
+aaababababababababababababababababababababafafafafafafafafafafafafafafafafafabafabafabafabafafafabafabafafafabafafafafafabafafafafabafafafabafafabafafafabafafafabafafafabababababafafafafafafafafafafafacadaeafagagagagafafafabafafafafafafafafababababababaa
+aaababababababababababababababababababababababafababafafafafafafafafafafafafabafabafabafabafafafabafabafafafafabafababababafafafafabababababafafabababababafafafabafafafabafafafafafabafafafafafafafafafacadaeafagagagagafafafabafafafafafafafafababababababaa
+aaababababababababababababababababababababababababababafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafacadaeafagagagagafafababafabafafafababafababababababaa
+aaabababababababababababababababababababababababababababababafafafafafafafafafafafababababafababababafababababafababababafafabafafabafababababafababababafafafababababafafafafafafafafafafafafafafafafafacadaeafagagagagafafababafababafafafafafababababababaa
+aaababababababababababababababahahahahahahaiaiaiababababababafafafafafafafafafafafabafafafafabafafabafabafafafafabafafafafafabafafabafabafafafafabafafabafafafabafafafafafafafafafafafafafafafafafafafafacadaeafagagagagafafababafabababafafafabababababababaa
+aaababababababababababababababahajakalamanaoapaqaiabababababafafafafafafafafafafafabafababafabafafabafababababafababababafafababababafababababafababababafafafababababafafafafafafafafafafafafafafafafafacadaeafagagagagafafababafabababababababababababababaa
+aaabababababababarararababababahasatatauauavavavaqaiababababafafafafafafafafafafafabafafabafabafafabafabafafafafafafafabafafabafafabafabafafafafabafafafabafafabafafafafafafafafafafafafafafafafafafafawaxayaeafagagagagafafabafafafababababababababababababaa
+aaababababababazafafafaAabababaiaBaCaDaEaEavavavaFaiababababafafafafafafababafafafababababafababababafababababafababababafafabafafabafababababafabafafafafabafababababafafafafafafafafafafafafafafafawaxayayaeafagagagagafafafafafafababababababababababababaa
+aaabababararazafafafafafaAababaiaGavavaHaHavavaHaIaiaJabababafafafafafafababafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafawaxayayaKaLafafafafafafafafabababababababababababababababaa
+aaababazafafafafafafafaMaNaAabaiaOavaIahahaPahahahabababababazafafafafafababafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafawaQaQaQaQaQaQaQaQaQaQaxayayaKaLafafafafafafafafafabababababababababababababababaa
+aaabazafafafafafafafafaAahahahahahaPahahatatataRahababababaSafafafafafafabababafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafawaxayaTaTaTaTaTaTaTaTaTayayaKaLafafafafafafafafababababababababaUaUabababababababaa
+aaaSafafafafafafafafafafahataVaWatatatahatatataXahababababazafafafafafafababababababafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafawaxayayaKaYaYaYaYaYaYaYaYaYaYaLafafafafafafafafafababababababababaUaUabababababababaa
+aaaSafafafafafaZaZbaafafbbatbcbdbdbeatahbfbgbhahahahahabazafafafafafafafababababababafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafawaxayayaKaLafafafafafafafafafafafafafafafafafafafababababaUaUaUaUaUaUaUaUaUaUababababaa
+aaaSafafafafafafbibjbkafahatblbmbmbnatatboboboatbpbqahazafafafafabababababababababababafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafawaxayayaKaLafafafafafafafafafafafafafafafafafafafafababababaUaUaUaUaUaUaUaUaUaUababababaa
+aaaSafbrbsafafaZaZbtbubvbvbwblbmbxbybzatatatatbAatatbbafafafafafabababababababababababababafababababafafafafafafacaeafafafafafafafafafafafafafafafafafafafafafafafawaxayayaKaLafafafafafafafafafafafafafafafafafafafafafababababaUaUaUaUaUaUaUaUaUaUababababaa
+aaaSafbBbCbsafafbDafbDbvbEatbFbmbmbGatbcbdbdbdbeatatahafafafafafafabababababababababababababababababafafafafafafacaeafafafafafafafafafafafafafafafafafafafafafafawaxayayaKaLafafafafafafafafafafafafafafafafafafafafafabababababaUaUaUaUaUaUaUaUaUaUababababaa
+aaaSafbHbIbJafaZaZbtafbvbvbKbLbMbmbNatblbmbmbmbObPbQbbafafafafafafabababababababababababababababababafafafafafafacaeafafafafafafafawaQaQaQaQaQaQaQaQaQaQaQaQaQaQaxayayaKaLafafafafafafafafafafafafafafafaUaUafafafafafababababaUaUaUaUaUaUaUaUaUaUaUaUabababaa
+aaaSafafafafafafbDafafafahatbRbSbSbTbKbUbVbSbSbTatatahafafafafafafabababababababababababababababababafafafafafafacaeafafafafafafawaxayaTaTaTaTaTaTaTaTaTaTaTaTaTaTayaKaLafafafafafafafafafafafafafafafafaUaUafafafafafababababaUaUaUaUaUaUaUaUaUaUaUaUabababaa
+aaaSafafafafafaZaZbtafafbbatatatatatatatatatatatatatahaNbrbWbWbsafafababababababababababababababababafafafafafafacaeafafafafafawaxayayaKaYaYaYaYaYaYaYaYaYaYaYaYaYaYaLafafafafafafaUaUafafafaUaUaUaUaUaUaUbXafafafafafababababaUaUaUaUaUaUaUaUaUaUaUaUabababaa
+aaaSafafafafafafafafafaMahatbKbYbQatahahatahahahbbahahaSbBaUaUbCbsafababababababababababababababababafafafafafafacaeafafafafawaxayayaKaLafafafafafafafafafafafafafafafafafafafafafaUaUaUaUaUaUaUaUaUaUaUbXbJafafabababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababaa
+aaaSafafafafafafafafaMabahahbbbbbbahahbZcacbahcccdcecfaSbHbIcgaUchafafababababababababababababababababafafafafafacaeafafafawaxayayaKaLafafafafafafafafafafafafafafafafafafaUbXbIbIcgaUaUaUaUaUbXbIbIbIbIbJafafafabababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaa
+aaaSafafafafafafafafaAabaScicjcjcjcjcjcjckclclcmclcnaAazafafbHbIbJafafafafafababababababababababababababafafafafaccocpafafacayayaKaLafafafafafafafafafafafafafafafafafafafbXbJafafbBaUaUaUaUbXbJafafafafafafafafabababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaa
+aaaSafafafafafafbrbWbsaAazcqclclclclclcrcsbrbWbWbWbWbWbWbsafafafafafafafafafafafafafafafabababababababababafafafctcucocpafacadaKaLafafafafafafafafafafafaUaUaUaUaUaUbXbIbIbJafafafbHbIbIbIbIbJafafafafafafafabababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababaa
+aaabaNafafafafafbHcgbCbWbWbWbWbWbWbWbWcvcwcxaUaUaUaUaUaUbCbsafafafafafafafafafafafafafafafafababababababababafafafctcucocpacadaeafafafafafafafafafafafafaUaUaUaUaUbXbJafafababafafafafafafafabababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababaa
+aaabababaNafafafafbHcgaUaUaUaUbXbIbIbIcyczbIbIbIbIbIbIbIbIbJafafafafafafafafafafafafafafafafafafafafafababababafafafctcucoacadaeafafafafafafafafafafafafaUaUaUaUaUchafafafabababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababaa
+aaababababafafafafafbHbIbIbIbIbJafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafabababafafafafctcuacadaeafafafafafafafafafafafafaUaUaUaUaUchafafabababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaa
+aaababababaNafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafabafafafafafctacadaeafafafafafafafafafafafbraUaUaUaUbXbJafababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaa
+aaabababababaNafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafacadaeafafafafafafafafafbrbWcxaUaUaUbXbJafafababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaa
+aaababababababaNafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafaUaUafafafafafafafafafafafafafafafacadaeafafafafafafafbrbWcxaUaUbXbIbIbJafabababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaa
+aaababahahahahahahahahahahafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafaUaUafafaUaUaUaUaUbWbWbWbWbWbWbsafafacadaeafafafafafafbrcxaUaUaUbXbJafababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaUaUabaUababababaUabaUaUaUaUabaUaUaUaUaUaUaUaUababaa
+aaababahatatatatatatatatahafafafafafafafafafafafafafafafafafafafafafafafaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUbCbWbWacadaebWbWbsafafbrcxaUaUaUaUchafafababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaUaUabaUabaUaUaUaUabaUaUaUaUabaUaUaUaUaUaUaUaUababaa
+aaababahatatatatatatatatahafafafafafafafafafafafafafafafafafafafafafafafaUaUaUaUaUaUaUaUafafaUaUaUaUafaUaUaUaUaUaUaUaUaUaUacadaeaUaUbCbsbrcxaUaUaUaUbXbJafafabababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaUaUabaUabaUaUaUaUabaUaUaUaUabaUaUaUaUaUaUaUaUababaa
+aaababahatatatatatatatatahafafafafafafafafafafafafafafafafafafafafafafafaUaUaUaUafafafafafafafafafafafafaUcgaUaUaUaUaUaUaUacadaeaUaUaUbCcxaUaUaUaUaUchafafafabababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababababaUababababaUabaUaUaUaUabaUaUaUaUaUaUaUaUababaa
+aaababahatatatatatatahahahafafafafafafafafafaUaUaUaUaUaUaUaUafafafafafafaUafafafafafafafafafafafafafafafafbHbIbIcgaUaUaUaUacadaeaUaUaUaUaUaUaUaUaUaUbCbsafafabababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaUaUabaUabaUaUaUaUabaUaUaUaUabaUaUaUaUaUaUaUaUaUabaa
+aaababahatatatatatataPcjcAafafafafafafafafafaUaUaUaUaUaUaUaUaUafafafafafafafafafafafafafafafafafafafafafafafafafbHcgaUaUaUacadaeaUaUaUaUaUaUaUbXbIcgaUchafafabababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaUaUabaUabaUaUaUaUabaUaUaUaUabaUaUaUaUaUaUaUaUaUabaa
+aaababahatatatatatatbbcjcAafafafafafafafafaUaUaUafafafafafafaUaUafafafafafababafafafafafafafafafafafafafafafafafafbHbIbIbIacadaebIbIbIcgaUaUbXbJafbHcgbCbsababababababababaUaUaUaUaUaUababababaUaUaUaUaUabaUaUabaUababababaUababababaUababababaUaUaUaUaUaUabaa
+aaababahatatatatatatbbcjcAafafafafafafafaUaUaUafafafafafafafafafafafafababababababafafafafafafafafafafafafafafafafafafafafacadaeafafafbHcgaUchafafafbHcgchababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaa
+aaababahahahahahahahahclcnafafafafafafaUaUaUafafafafafafafabababababababababababafafafafafafafafafafafafafafafafafafafafafacadaeafafafafbBaUchafafafbrcxbCbsafafafafaAarararararararararabababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabaa
+aaabababababafafafafafafafafafafaUafaUaUaUafafafafafafafafafabababababababababafafafafafafafafafafafafafafafafafafafafafafacadaeafafafbrcxaUbCbWbWbWcxaUaUbCbWbsafcBafafafafafafafafafafaAababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababaa
+aaababababababafafafafafafafafaUaUaUaUafafafafafafafafafafafafafabababafafafafafafafafafafafafafafafafafafafafafafafcCafafacadaeafbrbWcxaUaUaUaUaUaUaUaUaUaUaUbCbsafafcDcEcEcEcEcEcEcEcDafaAabababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababaa
+aaababababababafafafafafafafaUaUaUaUaUafafafafafafafafafafafafafafabafafafafafafafafafafafafafafafafafafafafafafafafafafafacadaeafbHcgaUaUaUaUaUaUaUaUaUaUaUaUaUchafafcFcGcHcIcJcKcLaycFafafcfabababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababaa
+aaababababababafafafafafafafaUaUaUafafafafabafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafacadaeafafbHbIcgaUaUaUaUaUaUaUaUaUaUbXbJcMafcFaycJcNaycOcPcJcFafafcfababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababaa
+aaababababababafafafafafafafaUaUafafafafababafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafacadaeafafafafbHbIbIbIcgaUaUaUaUaUbXbJafafafcFcQcRcJcJaycJcScFafafaAbvbvbvbvababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababaa
+aaababababababafafafafafafaUaUaUafafafabababafafafafafafafafafafababafafafafafafafafafafafafafafafafafafafafafafafafafafafacadaeafafafafafafafafbHcgaUaUaUbXbJafcDcEcEcEcEcEcEcEcEcEcEcDafafcTcTcTcTbvbvbvbvbvababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababaa
+aaabababababababafafafafafaUaUaUafafafafababafafabababafafababababababafafafafafafafafafafafafafafafafafafafafafafafafafafacadaeafafafafafafafafafbBaUaUaUchafafcFcIcJcUcLcScVcWaycIcJcFafafcTcrcXcsbvabababbvabababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababababaa
+aaabababababababafafafafafafaUaUaUafafafababababababababababababababafafafafafafafafafafafafafafafafafafafafafafafafafafafacadaeafafafafafafafafafbBaUaUaUchafcYcFcNaycOcPcLcJcZdacQcJcFafafcTcydbczbvabababbvababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababababaa
+aaababababababababafafafafafafaUaUaUafafafafabababababababababababafafafafafafafafafafafafafafafafafafafafafafafafafafafawaxayaeafafafafafafafafafbHcgaUaUchafafcFcJcJdccJcJcJcJcJcIcNcFafafcTcTcTcTbvabababbvababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababababaa
+aaababababababafafafafafafafafafaUaUaUafafafafafababafafafababafafafafafafafafafafafafafafafafafafafafafafafafafafafafawaxayayaeafafafafafafafafafafbHcgaUchafafcDcEcEcEcEcEcEcEcEcEcEcDddafcTdecXcsbvbvbvbvbvabaUabaUaUaUaUaUaUaUaUaUaUaUaUaUabababababababaa
+aadfdfdfdfdfdgafafafafafafafafafafaUaUaUafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafawaxayayaKaLafafcYafafafafafafafcTcEcEcEcTafafafdhafafafafafafafafafafafcTcydiczbvdjdjdjbvabaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababababaa
+aaaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaQaxayayaKaLafafafafafafafafafafafafbBaUchafafafafafafafafafafafafcTdkdkdkdkdkdkdkdldmdmdmdmabaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababababaa
+aaaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTayayaKaLafafafafafafafafafafafafbrcxaUbCbsdncsafafafafafafafafafafafafafcTcrcXcsbvdododobvabaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababababaa
+aaaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYcuayayaKaYaYaYcuayayaKaYaYaYaYaYaYaLafafafafafafafdpaNafafafbrcxaUaUaUchdqcwafafafdrdsafafafafafafafafcTcydbczbvdtdtdtbvababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababababaa
+aadudududududvafafafafafafafafafafafafaUaUaUaUafafafafafafafafafafafafafafafafafafafawaxayaycoaQaQaQaxayaycocpafafafafafafafafafafafafdpababaNafafbBaUaUaUaUchdwcwafafafafbrbWbWbsafafdxafcBcTcTcTcTbvbvbvbvbvababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababababaa
+aaababababababafafafafafafafafafafafafaUaUaUaUafafafafafafafafafafafafafafafafafafafacaKaYaYaYcuayaKaYaYaYcuaeafafafafafafafafafafdpdyabababazafafbBaUaUaUaUchdzcwafafafafbBaUaUbCbsafafafdpdybvbvbvbvbvababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUabababababaa
+aaabababababababababafafafafafafafafaUaUaUaUafafafafafafafafafafafafafafafafafafafafacaedAdBdCacayaedAdBdCacaedDdDdEafafafafafafdpababababazafafafbBaUaUaUaUchcyczafafafafbHbIcgaUchafafafcfabbvarararbvababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababababaa
+aaababababababababafafafafafafafafaUaUaUaUafafafafafafafafafafafafafafafafafafafafafaccoaQaQaQaxaycoaQaQaQaxaeafafdFafafafafafafcfabababazafafafafbBaUaUaUaUbCbsafafafafafafafbHbIbJafafafcfabaSdGdodHcfababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababababaa
+aaabababababababafafafafafafafafafaUaUaUaUafafafafafafafafafafafafafafafafafafafafafctaYaYaYaYaYaYaYaYaYaYaYaLdpaNdFafafafafafafaAabababaNafafafafbBaUaUaUaUaUbCbsafafafdIafafafafafafafafcfabaSdJdtdKcfabababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababababaa
+aaababababababafafafafafafafafafafaUaUaUafafafafafafafafafafafafafafafafafafafafafafafdLdMdNdOdLdLdPdLdQdRdSdLdLazdFafafafafafafafaAararazafafafafbBaUaUaUaUaUaUbCbWbsafafafafafafafafafafaAabaSdTdjdUcfababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUababababaa
+aaabababababafafafafafafafafafafaUaUaUafafafafafafafafafafafafafafafafafafafafafafafafdLdVdVdVdLdWdWdXdYdZeaeadLdDebafafafafafafafafafafafafafafafbBaUaUaUaUaUaUaUaUbCbWbWbWbWbWbWbWbWbsafafaAbvecececbvababababaUaUababaUaUabaUaUaUaUaUaUaUaUaUababababababaa
+aaabababafafafafafafafafafafafafaUaUafafafafafafafafafafafafafafafafafafafafafaMaNafafdLeddVeedLdWdWdWdYdYdYeaefegafbrbsafbrbWbWbWbWbWbsafafafafbrcxaUbXbIbIbIbIcgaUaUaUaUaUaUaUaUaUaUbCbsafafafafafafafaAababababababababababaUaUaUaUaUaUaUaUaUababababababaa
+aaababafafafabafafafafafafafafafaUaUafafafafafafafafabababafafafafafafafafafaMababaNafdLehdVeaeidWdWdWdWdWdWdWejegbrcxbCbWcxaUaUaUaUaUbCbWbWbWbWcxaUbXbJafafafafbBaUaUaUaUaUaUaUaUaUaUaUbCbWbWbsafafafafafcfababababababababababababababababababababababababaa
+aaabababababababababababafafafafaUaUafafafabababababababababafafafafababababababababdydLehdVekdLelemendWeodWdWdLepbHcgaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUchafafafafafbBaUaUaUaUaUaUaUaUaUaUaUaUaUaUbCbWbsafafaMabababababababababababababababababababababababababaa
+aaababababababababababababababaUaUaUabababababababababababababababababababababababababdLdLdLdLdLdLdLdLdLdLdLdLdLabaNbBaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUchafafafafafbHcgaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUbCbsaMababababababababababababababababababababababababababaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

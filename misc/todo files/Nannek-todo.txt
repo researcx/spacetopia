@@ -1,0 +1,11 @@
+Fix alien disarm icon
+items in alien pockets
+larva mob (no slots for anything, no hards or anything but can bite, weak around
+50 health)
+make eggs destroyable
+icons for dead facehuggers (and aliens in general)
+mousetraps should kill larvae
+
+test
+
+revision 9000!!!!

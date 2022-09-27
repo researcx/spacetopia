@@ -1,0 +1,29 @@
+Hello, here is a list of current issues with Goonstation sorted by severity.  Any bugs in here are up for grabs by anyone who wants to work on them, but if you do work on them, please note it in the file so that we don't have redundant coding.
+
+Severity types:
+
+Crash: Server halting errors. Reserved for the rare instances when the server does actually fall over and become unresponsive. (e.g. Monkey mode.)
+Block: Server still functional, but game does not progress and server must be restarted manually. (e.g. Looping "shuttle is now leaving!" messages.)
+Major: Doesn't break the game, but still a significant bug. (e.g. Superheating siphons.)
+Minor: Not a major issue, but not trivial. (e.g. Barman in late join options regardless of availability.)
+Trivial: Little annoyances that don't impact gameplay. (e.g. Typos.)
+Feature: New code or addition to enhance existing code. (e.g. Adding descriptions to items.)
+
+[CRASH]
+* Monkey Mode
+
+[BLOCK]
+* Shuttle is leaving! when traitor is dead. (Nannek: I fixed this!!)
+
+[MAJOR]
+* Config for secret does not work, still picking game modes set to 0. <- Not true, sorry Edit: Rick's servers don't take the config files from the svn
+.
+[MINOR]
+* IP Bans should append instead of replacing banreason. (Keelin: This will be 'fixed' soon since we switch to computer-id / key bans)
+* Barman still appears in latejoin job options regardless of availability. (Who cares?)
+
+[TRIVIAL]
+* Add in Supernorn's new sprites.
+
+[FEATURE]
+* Flesh out (hehe) the item descriptions.

@@ -1,0 +1,115 @@
+The health system is currently showing some signs of wear. Applications of damage and status effects are very haphazard at the moment.
+
+HEALTH
+Priority: High
+
+As an overview, the organ nature of objects will be emphasized. This design document will consider only humans for the moment but leave leeway for seamless integration of other mobs.
+
+ORGANISM:
+The body will be setup as a collection of internal and external organs. External organs are rendered onscreen and capable of visually displaying damage taken to them.
+
+The organs are connected as expected. Most internals organs (heart, liver, kidneys, lungs) are in the chest. The brain is in the head. The concept of being 'in' another organ will be discussed later. The external organs are setup as expected for a human skeleton. Surgery can be used to disconnect or remove organs.
+
+ORGAN PROPERTIES AND OPERATION:
+Organs are processed each time the mob is processed. (current things processed in Life() will be moved to the organs)
+
+Organs generally have the following properties:
+- Integrity: from 0 to 100, a measure of how 'alive' and operational the organ is. Hitting 0 kills the organ and makes it inoperational.
+- Oxygen: Drops naturally. Resupplied by oxygenated blood. If 0, integrity loss. (In normal situations this can be done for all organs at once to save processing)
+
+- status Effects: list of current effects on object
+
+Special functions:
+- Lungs: Takes a breath and uses the air to refresh the oxygenation of blood content.
+- Heart: operation of this is required for other organs to be able to use blood.
+- Liver: Removes contaminants from blood (at a small integrity loss for abnormal contaminants)
+		failure of the liver causes blood poisoning
+- Kidneys: Similar to liver
+- Brain: Must be kept alive for player to control character. Kept alive by deoxygenating blood.
+
+BLOOD
+In summary, your blood levels most closely approximates your health bar for brute/burn damage in the previous health system. While the translation is not completely direct, it is very close. Your blood level reaching zero will not technically kill a character (although the character is most likely in the process of dying)
+
+- The amount of oxygenated vs deoxygenated blood is stored in the chest organ.
+- All other organs have a 'blood available' which acts as a percentage of the blood they have access to of this.
+-- these percentages may be >100. The chest has 100% for example.
+-- Blood available applies to organs daisychained together. Feet can draw more blood than legs for example.
+
+- If oxygenated blood is high enough, the chest can automatically flag all organs as receiving proper oxygen (by sending a parameter to its process)
+-- Otherwise, the organ has to deoxygenate blood itself.
+
+To model chemicals being injected into specific body parts then slowly moving around:
+- Each organ has a /datum/chemical/storage that is not generally used (at least not for blood)
+-- Injected chemicals go in there so the organ has a first crack at it.
+-- Then, the chemicals are moved along to connecting organs storage (or the blood itself)
+
+COMBAT SWING:
+The default combat sequence is:
+1. A check is made to ensure the attack is not totally avoided.
+2. The targets take_damage proc is called sending the desired zone (as string or enum), damage_type, damage_intensity
+3. The targets take_damage proc applies mitigation of the damage due to clothing, etc.
+4. The targets take_damage proc passes the final result to the actual organ.
+5. The actual organ has a chance of spreading the damage to organs contained within (hits to chest affecting internal organs, etc.)
+
+TYPES OF DAMAGE:
+Crushing - This is blunt force damage. Causes internal blood loss due to internal bleeding over time. Also has a chance of lowering the integrity of the afflicted organ.
+
+Piercing - Opens a wound on the afflicted organ causing blood loss over time. Does not usually affect the integrity of the afflicted organ.
+
+Burning - Lowers integrity of affected organ and evaporates blood directly. Large amounts of burning damage could open a wound.
+
+Electrical - Can cause some internal bleeding. Can cause temporary organ failure.
+
+Looking another way:
+Crushing damage is instant damage that causes a set amount of damage within a very short period.
+Piercing damage applies a longer-term DOT (damage over time).
+Burning damage is similar to crushing damage but focuses more on blood loss than part disabling.
+
+Electrical damage is off by its own since its main purpose is to incapacitate in a 'less-lethal' manner
+
+DEATH:
+Death occurs when the brain dies. This occurs when not enough oxygenated blood is not reaching the brain. Thus, too much blood loss will kill you. Similarly, not being able to breath will kill you.
+
+Note that most organs are essentially limited in how much blood they can lose per second.
+
+HEALING DAMAGE:
+Internal blood loss is generally a '1-time' payment in blood loss. Larger internal wounds may have the internal blood loss slowed through application of an ointment.
+
+Open wounds, while they may seal up naturally over time, generally must be bandaged to stop the blood loss. While bandaged, the area is susceptible to reopening the wound when crushing, burning, or piercing damage is taken again. Some steps can be taken to lessen the blood loss of an open wound.
+- Lying down lowers the amount of blood loss per second by a small amount.
+- If you have a free hand that is usable, it will automatically be used to apply pressure to your most significant wound and lessen blood loss.
+
+Blood is replenished naturally or through transfusions.
+
+INTERFACE:
+The paperdoll, instead of showing damage, will instead show where the player is feeling pain. If the player is under intense pain or significant bloodloss, the outer border of the screen will flash red.
+
+The middle bottom of the screen that currently shows health information will be reserved as a 'priority queue' for health alerts. Only the top 4 are shown. Some possible alerts are:
+- Suffocating (shown when the lungs fail to take a proper breath)
+- Severe Pain in [zone] (shown when body part just took a big hit or at low integrity)
+- Weakness in [zone]    (generally shown when oxygen low in body part, flashes if still bleeding there)
+- Poisoned (shown when taking certain types of internal damage)
+- Hot - Feels unnaturally warm in ...
+- Cold - Feels unnaturally cold in...
+...
+
+STATUS EFFECTS:
+- Paralyzed: Disables operation of organ. When on brain, all player control is denied.
+- Unconscious (brain only): Same as paralyzed but also blocks vision and hearing.
+- Sedated: Weakened operation of organ, but bloodloss and oxygen use reduced
+- Anxiety (brain only): Player control limited, increased oxygen use
+
+Severe pain in an area has a chance of paralyzing said area for a set amount of time. Also, can cause Anxiety
+
+
+
+IMPLEMENTATION DETAILS:
+THe blood_vessels or whatever is holding the blood chemical has 2 variables:
+blood_amount
+blood_oxygen
+(even if there is a /datum/chemical/blood, those 2 variables should used by organs to speed up processing)
+
+blood_oxygen can never exceed amount and is deplenished as organs go through and oxygenate themselves
+
+ORDER OF LIFE()
+lungs replenish blood_oxygen when processed

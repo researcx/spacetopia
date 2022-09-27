@@ -1,0 +1,12 @@
+MACROCELLS:
+Priority: Low, since air system has just been recoded
+
+Possible adjustment to the air system. Currently, when group processing is turned off, the individual cells only update once per second. This can dramatically increases the time it takes for a room to be processed and for air changes to propagate throughout the room.
+
+Instead of processing cells individually, process them on a 3x3 basis (3x3 seems ideal since you can easily track how air pressure would push things in/out of the cell. The center cell would simply follow the actions of the majority other cells).
+
+Possibly even have larger macrocells since it would be asy to compare air at the boundaries of the cell and see how it should change. The most significant challenge, however, is dealing with air events that occur 'inside' a cell (such as a canister opening).
+
+What would cells do?
+- Adjust airflow in/out of the cell into other macrocells (using archiving information).
+- Rapidly adjust the pressure of constituent cells so that smooth transitions are made in air between borders.

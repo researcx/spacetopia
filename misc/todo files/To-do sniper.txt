@@ -1,0 +1,63 @@
+- svn commit bot breaks ALL THE TIME FUCK
+
+- SQL database for bans/player notes
+
+INSERT statements:
+
+delimiter $$
+
+CREATE DATABASE `spacestation13` /*!40100 DEFAULT CHARACTER SET utf8 */$$
+
+CREATE TABLE `ban_history` (
+  `id` int(11) NOT NULL auto_increment,
+  `ckey` varchar(64) NOT NULL,
+  `reason` varchar(4096) NOT NULL default 'Griefer',
+  `admin` varchar(64) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8$$
+
+CREATE TABLE `bans` (
+  `id` int(11) NOT NULL auto_increment,
+  `ckey` varchar(64) NOT NULL,
+  `duration` int(11) NOT NULL,
+  `reason` varchar(4096) NOT NULL default 'Griefer',
+  `admin` varchar(64) NOT NULL default 'Nobody',
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `ckey_UNIQUE` (`ckey`)
+) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=utf8$$
+
+CREATE TABLE `notes` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `ckey` varchar(64) NOT NULL,
+  `note` varchar(4096) NOT NULL,
+  `admin` varchar(64) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8$$
+
+
+
+
+Research Objectives
+---------
+- Asteroid mining for precious metals. 
+  o Laser drill: requires two hands to use. "BELIEVE IT OR NOT YOU PIECE OF SHIT YOU'RE STILL GONNA BURN"
+  o Station research objective: Collect 10 kg of Bendonkium (or something)
+
+- Botanist research
+  o Create at least 5 new strains of plants.
+
+
+Job-specific traitor objectives
+---------
+Roboticist
+- Remove 30% of the crew's butts and escape alive.
+- Create an army of emagged Beepskys.
+
+Engineer/Chief
+- Sabotage the station engine.
+
+Clown
+- Cause 70% of the crew to slip on your banana peels.
+
+Captain
+- Kill one or more heads of the station.

@@ -1,0 +1,41 @@
+* ideas
+O workin on it
+X IT'S SIMPLY DONE
+
+todo:
+O SPONGES
+	O dump stuff on sponges
+	* interaction with the big mop bucket, popup with the options "dry" or "wet"
+* half-capacity jetpack/storage for syndicates, maybe one spawns in the CE's office?
+* pay money to centcom to make the supply shuttle come faster
+* individual item QM thing? how do we determine the value of items without manually setting a var for each object :/
+
+old todo:
+* remove thermals wallhack & make them work like an IR camera
+* FORENSICS REWRITE
+* luminol picks up blood on clothes
+* eye surgery?
+* rewrite icon/proc/attack (probably just ask sniper to do everything because hoooooly shit)
+
+etc:
+Electrical charge test shows residual insulation material left on the [inspected thing].
+
+QM stuff:
+
+Filter: -----
+Name | Value
+express delivery: $4000 Buy
+peanut pump: $1500 (1) Buy
+mechanical toolbox: $5000 (1) Buy
+batman cape: $5 (200) Buy
+cakehat: $10 (1) Buy
+vodka: $500 (1) Buy
+
+Cart (shopping cart icon, maybe the wheels aren't there and it's hovering)
+Name | Value
+batman cape: $5/ea $1000 (200)
+peanut pump: $1500/ea $1500 (1)
+express delivery: $4000
+
+Total: $6500
+Confirm

@@ -1,0 +1,77 @@
+"aa" = (/turf/space,/area)
+"ab" = (/turf/unsimulated/wall/auto/supernorn,/area/wtc)
+"ac" = (/obj/submachine/chef_oven,/obj/machinery/light{dir = 1; icon_state = "tube1"; layer = 9.1; pixel_y = 21},/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"ad" = (/obj/table/auto,/obj/machinery/microwave,/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"ae" = (/obj/table/auto,/obj/submachine/mixer,/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"af" = (/obj/table/auto,/obj/submachine/chef_sink/table,/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"ag" = (/obj/machinery/light{dir = 1; icon_state = "tube1"; layer = 9.1; pixel_y = 21},/obj/storage/secure/closet/fridge,/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"ah" = (/obj/item/storage/toilet{tag = "icon-toilet (EAST)"; icon_state = "toilet"; dir = 4},/obj/item/clothing/head/plunger{pixel_x = 0; pixel_y = 10},/turf/unsimulated/floor/improved{tag = "icon-showroomfloor"; icon_state = "showroomfloor"},/area/wtc)
+"ai" = (/turf/unsimulated/floor/improved{tag = "icon-showroomfloor"; icon_state = "showroomfloor"},/area/wtc)
+"aj" = (/obj/machinery/bathtub,/turf/unsimulated/floor/improved{tag = "icon-showroomfloor"; icon_state = "showroomfloor"},/area/wtc)
+"ak" = (/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"al" = (/obj/machinery/firealarm{dir = 4; pixel_x = 26; pixel_y = 1},/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"am" = (/obj/table/auto,/obj/item/paper_bin,/obj/machinery/light{dir = 8; icon_state = "tube1"; layer = 9.1; pixel_x = -10},/turf/unsimulated/floor/improved{tag = "icon-showroomfloor"; icon_state = "showroomfloor"},/area/wtc)
+"an" = (/obj/machinery/light{dir = 4; icon_state = "tube1"; layer = 9.1; pixel_x = 10},/turf/unsimulated/floor/improved{tag = "icon-showroomfloor"; icon_state = "showroomfloor"},/area/wtc)
+"ao" = (/obj/table/auto,/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"ap" = (/obj/table/auto,/obj/submachine/chef_sink/table{dir = 4; icon_state = "table_sink"; pixel_x = 4; pixel_y = 3; tag = "icon-table_sink (EAST)"},/turf/unsimulated/floor/improved{tag = "icon-showroomfloor"; icon_state = "showroomfloor"},/area/wtc)
+"aq" = (/obj/table/auto,/obj/towelbin,/turf/unsimulated/floor/improved{tag = "icon-showroomfloor"; icon_state = "showroomfloor"},/area/wtc)
+"ar" = (/obj/stool/bar,/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"as" = (/obj/machinery/light{dir = 4; icon_state = "tube1"; layer = 9.1; pixel_x = 10},/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"at" = (/obj/machinery/door/unpowered/wood/pyro{tag = "icon-wood1 (NORTH)"; icon_state = "wood1"; dir = 1},/turf/unsimulated/floor/improved{tag = "icon-showroomfloor"; icon_state = "showroomfloor"},/area/wtc)
+"au" = (/turf/unsimulated/wall/auto/reinforced/supernorn,/area/wtc)
+"av" = (/obj/machinery/light{dir = 8; icon_state = "tube1"; layer = 9.1; pixel_x = -10},/turf/unsimulated/floor/improved{tag = "icon-cafeteria"; icon_state = "cafeteria"},/area/wtc)
+"aw" = (/obj/stool/chair/couch{tag = "icon-chair_couch-brown (WEST)"; icon_state = "chair_couch-brown"; dir = 8},/turf/unsimulated/floor/improved{tag = "icon-carpetNW"; icon_state = "carpetNW"},/area/wtc)
+"ax" = (/obj/stool/chair/couch{tag = "icon-chair_couch-brown (EAST)"; icon_state = "chair_couch-brown"; dir = 4},/turf/unsimulated/floor/improved{tag = "icon-carpetside (NORTH)"; icon_state = "carpetside"; dir = 1},/area/wtc)
+"ay" = (/turf/unsimulated/floor/improved{tag = "icon-carpetside (NORTH)"; icon_state = "carpetside"; dir = 1},/area/wtc)
+"az" = (/obj/shrub{icon = 'icons/obj/stationobjs.dmi'; icon_state = "plant"; dir = 1},/turf/unsimulated/floor/improved{tag = "icon-carpetNE"; icon_state = "carpetNE"},/area/wtc)
+"aA" = (/turf/unsimulated/floor/improved{tag = "icon-plating"; icon_state = "plating"},/area/wtc)
+"aB" = (/turf/unsimulated/floor/improved{tag = "icon-carpetNW"; icon_state = "carpetNW"},/area/wtc)
+"aC" = (/turf/unsimulated/floor/improved{tag = "icon-carpetN"; icon_state = "carpetN"},/area/wtc)
+"aD" = (/obj/table/auto,/turf/unsimulated/floor/improved{tag = "icon-carpetcornerbutte (NORTH)"; icon_state = "carpetcornerbutte"; dir = 1},/area/wtc)
+"aE" = (/obj/table/auto,/turf/unsimulated/floor/improved{tag = "icon-carpetpurple"; icon_state = "carpetpurple"},/area/wtc)
+"aF" = (/turf/unsimulated/floor/improved{tag = "icon-carpetpurple"; icon_state = "carpetpurple"},/area/wtc)
+"aG" = (/obj/machinery/light{dir = 4; icon_state = "tube1"; layer = 9.1; pixel_x = 10},/obj/table/auto,/turf/unsimulated/floor/improved{tag = "icon-carpetside (EAST)"; icon_state = "carpetside"; dir = 4},/area/wtc)
+"aH" = (/obj/storage/closet,/turf/unsimulated/floor/improved{tag = "icon-woodenfloors"; icon_state = "woodenfloors"},/area/wtc)
+"aI" = (/obj/machinery/light{dir = 1; icon_state = "tube1"; layer = 9.1; pixel_y = 21},/turf/unsimulated/floor/improved{tag = "icon-woodenfloors"; icon_state = "woodenfloors"},/area/wtc)
+"aJ" = (/obj/machinery/door/unpowered/wood/pyro{tag = "icon-wood1 (WEST)"; icon_state = "wood1"; dir = 8},/turf/unsimulated/floor/improved{tag = "icon-woodenfloors"; icon_state = "woodenfloors"},/area/wtc)
+"aK" = (/turf/unsimulated/floor/improved{tag = "icon-carpetW"; icon_state = "carpetW"},/area/wtc)
+"aL" = (/obj/stool/chair{dir = 4},/turf/unsimulated/floor/improved{tag = "icon-carpetpurple"; icon_state = "carpetpurple"},/area/wtc)
+"aM" = (/obj/table/auto,/obj/machinery/computer3/luggable/personal{pixel_y = 10},/turf/unsimulated/floor/improved{tag = "icon-carpetside (EAST)"; icon_state = "carpetside"; dir = 4},/area/wtc)
+"aN" = (/obj/stool/bed,/obj/item/clothing/suit/bedsheet,/turf/unsimulated/floor/improved{tag = "icon-woodenfloors"; icon_state = "woodenfloors"},/area/wtc)
+"aO" = (/turf/unsimulated/floor/improved{tag = "icon-woodenfloors"; icon_state = "woodenfloors"},/area/wtc)
+"aP" = (/obj/shrub{icon = 'icons/obj/stationobjs.dmi'; icon_state = "plant"; dir = 1},/turf/unsimulated/floor/improved{tag = "icon-carpetSW"; icon_state = "carpetSW"},/area/wtc)
+"aQ" = (/obj/machinery/light,/turf/unsimulated/floor/improved{tag = "icon-carpetS"; icon_state = "carpetS"},/area/wtc)
+"aR" = (/turf/unsimulated/floor/improved{tag = "icon-carpetS"; icon_state = "carpetS"},/area/wtc)
+"aS" = (/obj/table/auto,/obj/item/paper_bin,/obj/item/pen,/turf/unsimulated/floor/improved{tag = "icon-carpetSE"; icon_state = "carpetSE"},/area/wtc)
+"aT" = (/obj/machinery/door/unpowered/wood/pyro,/turf/unsimulated/floor/improved,/area/wtc)
+"aU" = (/obj/teleport_door_housing/entrance,/turf/unsimulated/wall/auto/reinforced/supernorn,/area/wtc)
+"aV" = (/obj/teleport_door_housing/entrance{tag = "icon-transporter (NORTH)"; icon_state = "transporter"; dir = 1},/turf/unsimulated/wall/auto/reinforced/supernorn,/area/wtc)
+"aW" = (/obj/light{dir = 1; icon_state = "tube1"; layer = 9.1; pixel_y = 21},/turf/unsimulated/floor/improved,/area/wtc)
+"aX" = (/turf/unsimulated/floor/improved,/area/wtc)
+"aY" = (/obj/teleport_door_housing/button{pixel_x = 5; pixel_y = 32},/obj/landmark{name = "Crew Quarters"},/turf/unsimulated/floor/improved,/area/wtc)
+"aZ" = (/obj/machinery/light,/turf/unsimulated/floor/improved,/area/wtc)
+"ba" = (/obj/window/auto/reinforced,/turf/unsimulated/floor/improved{tag = "icon-plating"; icon_state = "plating"},/area/wtc)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaabababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaabacadaeafagabahaiajabaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaabakakakakalabamaianabaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaabaoaoaoaoakabapaiaqabaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaabararararasababatabauauauauauauauauauauauaaaaaaaa
+aaaaaaabavakakakakawaxayazauaAaAaAaAauaAaAaAaAauaaaaaaaa
+aaaaaaababababaBaCaDaEaFaGauaAaAaAaAauaAaAaAaAauaaaaaaaa
+aaaaaaabaHaIaJaKaFaFaFaLaMauaAaAaAaAauaAaAaAaAauaaaaaaaa
+aaaaaaabaNaOabaPaQaRaRaQaSauaAaAaAaAauaAaAaAaAauaaaaaaaa
+aaaaaaabababababauauaTauauauauaUaVauauauaUaVauauauaaaaaa
+aaaaaaaaaaaaaaaaauaWaXaXaXaWaYaXaXaXaWaYaXaXaXaWauaaaaaa
+aaaaaaaaaaaaaaaaauaXaXaXaXaXaXaXaXaXaXaXaXaXaXaXauaaaaaa
+aaaaaaaaaaaaaaaaauaZaXaXaXaZaXaXaXaXaZaXaXaXaXaZauaaaaaa
+aaaaaaaaaaaaaaaaauauaubababaaubababaaubababaauauauaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

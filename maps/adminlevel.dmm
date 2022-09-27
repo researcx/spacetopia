@@ -1,0 +1,262 @@
+"aa" = (/turf/unsimulated/wall{icon = 'icons/obj/singularity.dmi'; icon_state = "TheSingMain"; name = "v-space"},/area/area_that_kills_you_if_you_enter_it)
+"ab" = (/turf/simulated/wall/ancient,/area/area_that_kills_you_if_you_enter_it/firegib)
+"ac" = (/turf/space,/area)
+"ad" = (/turf/space/shuttle_transit,/area/area_that_kills_you_if_you_enter_it/firegib)
+"ae" = (/turf/unsimulated/wall,/area)
+"af" = (/turf/unsimulated/wall/auto/reinforced/supernorn,/area/centcom)
+"ag" = (/turf/space/shuttle_transit,/area/shuttle_transit_space/west)
+"ah" = (/turf/space/shuttle_transit,/area/shuttle_transit_space)
+"ai" = (/obj/landmark/start{name = "shit"},/obj/landmark/start,/turf/space,/area)
+"aj" = (/turf/unsimulated/grass,/area/centcom)
+"ak" = (/turf/simulated/shuttle/wall{dir = 8; icon_state = "wall3_space"},/area/shuttle/merchant_shuttle/left_centcom)
+"al" = (/obj/window/auto,/obj/grille/steel,/turf/simulated/floor/plating,/area/shuttle/merchant_shuttle/left_centcom)
+"am" = (/obj/machinery/shuttle/engine/heater{dir = 8; icon_state = "alt_heater"},/turf/simulated/shuttle/wall{icon_state = "wall3"},/area/shuttle/merchant_shuttle/left_centcom)
+"an" = (/obj/machinery/shuttle/engine/propulsion{dir = 4; icon_state = "alt_propulsion"},/turf/space,/area/shuttle/merchant_shuttle/left_centcom)
+"ao" = (/turf/simulated/shuttle/wall{icon_state = "wall3"},/area/shuttle/merchant_shuttle/left_centcom)
+"ap" = (/turf/simulated/shuttle/wall{dir = 4; icon_state = "wall3_floor2"},/area/shuttle/merchant_shuttle/left_centcom)
+"aq" = (/obj/decal/fakeobjects/teleport_pad,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/left_centcom)
+"ar" = (/turf/simulated/shuttle/wall{dir = 2; icon_state = "wall3_floor2"},/area/shuttle/merchant_shuttle/left_centcom)
+"as" = (/obj/tree1,/turf/unsimulated/grass,/area/centcom)
+"at" = (/obj/window/auto,/obj/grille/steel,/turf/simulated/floor/engine,/area/shuttle/merchant_shuttle/left_centcom)
+"au" = (/obj/table/reinforced/auto,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/left_centcom)
+"av" = (/obj/stool/chair/comfy,/obj/npc/trader/random{trader_area = "/area/shuttle/merchant_shuttle/right_station"},/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/left_centcom)
+"aw" = (/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/left_centcom)
+"ax" = (/obj/machinery/door/unpowered/shuttle,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/left_centcom)
+"ay" = (/obj/machinery/door/airlock/pyro/external{dir = 4; icon_state = "airlock_locked"; locked = 1},/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"az" = (/obj/machinery/light,/turf/unsimulated/grass,/area/centcom)
+"aA" = (/turf/simulated/shuttle/wall{icon_state = "wall3_space"},/area/shuttle/merchant_shuttle/left_centcom)
+"aB" = (/turf/simulated/shuttle/wall{dir = 1; icon_state = "wall3_floor2"},/area/shuttle/merchant_shuttle/left_centcom)
+"aC" = (/obj/decal/fakeobjects/teleport_pad,/obj/marker/supplymarker,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/left_centcom)
+"aD" = (/turf/simulated/shuttle/wall{dir = 8; icon_state = "wall3_floor2"},/area/shuttle/merchant_shuttle/left_centcom)
+"aE" = (/obj/grille/steel,/obj/window/auto/reinforced,/turf/unsimulated/floor,/area/centcom)
+"aF" = (/obj/machinery/door/unpowered/wood,/turf/unsimulated/floor{dir = 4; icon_state = "green"},/area/centcom)
+"aG" = (/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"aH" = (/obj/machinery/light{dir = 1; icon_state = "tube1"; layer = 9.1; pixel_y = 21},/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"aI" = (/turf/unsimulated/floor{tag = "icon-track_2 (SOUTHWEST)"; icon = 'icons/misc/racing.dmi'; icon_state = "track_2"; dir = 10},/area)
+"aJ" = (/turf/unsimulated/floor{tag = "icon-track_2"; icon = 'icons/misc/racing.dmi'; icon_state = "track_2"},/area)
+"aK" = (/obj/machinery/light{dir = 1; icon_state = "tube1"; layer = 9.1; pixel_y = 21},/turf/unsimulated/floor{tag = "icon-track_2"; icon = 'icons/misc/racing.dmi'; icon_state = "track_2"},/area)
+"aL" = (/turf/unsimulated/floor{tag = "icon-track_2 (SOUTHEAST)"; icon = 'icons/misc/racing.dmi'; icon_state = "track_2"; dir = 6},/area)
+"aM" = (/turf/unsimulated/floor{tag = "icon-track_2 (EAST)"; icon = 'icons/misc/racing.dmi'; icon_state = "track_2"; dir = 4},/area)
+"aN" = (/turf/unsimulated/floor{icon = 'icons/misc/racing.dmi'; icon_state = "track_1"},/area)
+"aO" = (/turf/unsimulated/floor{tag = "icon-track_2 (WEST)"; icon = 'icons/misc/racing.dmi'; icon_state = "track_2"; dir = 8},/area)
+"aP" = (/obj/overlay{alpha = 1; icon = 'icons/misc/russia.dmi'; layer = 0; name = "privet"},/turf/space,/area)
+"aQ" = (/obj/shrub,/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 9},/area/centcom)
+"aR" = (/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 1},/area/centcom)
+"aS" = (/obj/machinery/light{dir = 1; icon_state = "tube1"; layer = 9.1; pixel_y = 21},/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 1},/area/centcom)
+"aT" = (/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 5},/area/centcom)
+"aU" = (/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 9},/area/centcom)
+"aV" = (/obj/shrub,/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 5},/area/centcom)
+"aW" = (/obj/machinery/computer/arcade,/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 8},/area/centcom)
+"aX" = (/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"aY" = (/obj/stool/chair/couch/red{dir = 8},/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"aZ" = (/obj/stool/chair/couch/red,/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"ba" = (/obj/stool/chair/couch/red{dir = 4},/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"bb" = (/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 4},/area/centcom)
+"bc" = (/obj/critter/boogiebot,/turf/unsimulated/floor{icon = 'icons/misc/racing.dmi'; icon_state = "track_1"},/area)
+"bd" = (/obj/decal/jukebox,/obj/decal/glow{brightness = 3; invisibility = 101; name = "glow - YELLOW"; color_b = 0.2; color_g = 0.45; color_r = 0.5},/turf/unsimulated/floor{icon = 'icons/misc/racing.dmi'; icon_state = "track_1"},/area)
+"be" = (/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 8},/area/centcom)
+"bf" = (/obj/stool/chair/couch/red,/obj/item/a_gift/festive,/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"bg" = (/obj/machinery/computer/arcade,/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 4},/area/centcom)
+"bh" = (/obj/table/wood/auto,/obj/item/plate,/obj/item/reagent_containers/food/snacks/ice_cream/random{rand_pos = 0},/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"bi" = (/obj/machinery/light{dir = 8; icon_state = "tube1"; layer = 9.1; pixel_x = -10},/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 8},/area/centcom)
+"bj" = (/obj/table/wood/auto,/obj/item/reagent_containers/food/snacks/popcorn,/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"bk" = (/obj/table/wood/auto,/obj/item/a_gift/festive,/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"bl" = (/obj/table/wood/auto,/obj/item/plate,/obj/item/reagent_containers/food/snacks/pizza{pixel_y = 10},/obj/item/kitchen/utensil/knife,/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"bm" = (/obj/table/wood/auto,/obj/item/plate,/obj/item/reagent_containers/food/snacks/pizza{pixel_y = 10},/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"bn" = (/obj/table/wood/auto,/obj/item/saxophone,/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"bo" = (/obj/table/wood/auto,/obj/item/reagent_containers/food/drinks/rum_spaced,/turf/simulated/floor/carpet{icon_state = "fred1"; dir = 8},/area/centcom)
+"bp" = (/obj/machinery/light{icon_state = "tube1"; dir = 4},/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 4},/area/centcom)
+"bq" = (/obj/submachine/slot_machine,/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 10},/area/centcom)
+"br" = (/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 2},/area/centcom)
+"bs" = (/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 6},/area/centcom)
+"bt" = (/turf/unsimulated/floor{tag = "icon-track_2 (NORTHEAST)"; icon = 'icons/misc/racing.dmi'; icon_state = "track_2"; dir = 5},/area)
+"bu" = (/turf/unsimulated/floor{tag = "icon-track_2 (NORTH)"; icon = 'icons/misc/racing.dmi'; icon_state = "track_2"; dir = 1},/area)
+"bv" = (/turf/unsimulated/floor{tag = "icon-track_2 (NORTHWEST)"; icon = 'icons/misc/racing.dmi'; icon_state = "track_2"; dir = 9},/area)
+"bw" = (/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 10},/area/centcom)
+"bx" = (/obj/submachine/slot_machine,/turf/simulated/floor/carpet{icon_state = "fred2"; dir = 6},/area/centcom)
+"by" = (/obj/shrub{icon_state = "shrub"; dir = 1},/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"bz" = (/obj/machinery/light,/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"bA" = (/obj/shrub{icon_state = "shrub"; dir = 10},/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"bB" = (/obj/window/auto/reinforced,/turf/unsimulated/floor,/area/centcom)
+"bC" = (/obj/machinery/door/unpowered/wood,/turf/unsimulated/floor{icon_state = "delivery"},/area/centcom)
+"bD" = (/obj/machinery/vending/coffee,/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"bE" = (/obj/machinery/vending/cola/blue,/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"bF" = (/turf/unsimulated/floor{icon_state = "Stairs_wide"},/area/centcom)
+"bG" = (/turf/unsimulated/floor{icon_state = "Stairs2_wide"},/area/centcom)
+"bH" = (/obj/lattice,/turf/space,/area)
+"bI" = (/obj/lattice{icon_state = "lattice-dir"; dir = 1},/turf/space,/area)
+"bJ" = (/turf/simulated/shuttle/wall{dir = 8; icon_state = "wall3_space"},/area/shuttle/merchant_shuttle/right_centcom)
+"bK" = (/obj/window/auto,/obj/grille/steel,/turf/simulated/floor/plating,/area/shuttle/merchant_shuttle/right_centcom)
+"bL" = (/obj/machinery/shuttle/engine/heater{dir = 8; icon_state = "alt_heater"},/turf/simulated/shuttle/wall{icon_state = "wall3"},/area/shuttle/merchant_shuttle/right_centcom)
+"bM" = (/obj/machinery/shuttle/engine/propulsion{dir = 4; icon_state = "alt_propulsion"},/turf/space,/area/shuttle/merchant_shuttle/right_centcom)
+"bN" = (/obj/machinery/light{dir = 8; icon_state = "tube1"; layer = 9.1; pixel_x = -10},/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"bO" = (/obj/lattice{icon_state = "lattice-dir"; dir = 10},/turf/space,/area)
+"bP" = (/turf/simulated/shuttle/wall{icon_state = "wall3"},/area/shuttle/merchant_shuttle/right_centcom)
+"bQ" = (/turf/simulated/shuttle/wall{dir = 4; icon_state = "wall3_floor2"},/area/shuttle/merchant_shuttle/right_centcom)
+"bR" = (/obj/decal/fakeobjects/teleport_pad,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/right_centcom)
+"bS" = (/turf/simulated/shuttle/wall{dir = 2; icon_state = "wall3_floor2"},/area/shuttle/merchant_shuttle/right_centcom)
+"bT" = (/obj/lattice{icon_state = "lattice-dir"; dir = 6},/turf/space,/area)
+"bU" = (/obj/machinery/light{dir = 4; icon_state = "tube1"; layer = 9.1; pixel_x = 10},/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"bV" = (/turf/space,/area/shuttle/escape/transit/ew)
+"bW" = (/obj/window/auto,/obj/grille/steel,/turf/simulated/floor/engine,/area/shuttle/merchant_shuttle/right_centcom)
+"bX" = (/obj/table/reinforced/auto,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/right_centcom)
+"bY" = (/obj/stool/chair/comfy,/obj/npc/trader/random{trader_area = "/area/shuttle/merchant_shuttle/right_station"},/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/right_centcom)
+"bZ" = (/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/right_centcom)
+"ca" = (/obj/machinery/door/unpowered/shuttle,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/right_centcom)
+"cb" = (/turf/simulated/shuttle/wall{icon_state = "wall3_space"},/area/shuttle/merchant_shuttle/right_centcom)
+"cc" = (/turf/simulated/shuttle/wall{dir = 1; icon_state = "wall3_floor2"},/area/shuttle/merchant_shuttle/right_centcom)
+"cd" = (/obj/decal/fakeobjects/teleport_pad,/obj/marker/supplymarker,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/merchant_shuttle/right_centcom)
+"ce" = (/turf/simulated/shuttle/wall{dir = 8; icon_state = "wall3_floor2"},/area/shuttle/merchant_shuttle/right_centcom)
+"cf" = (/obj/lattice{icon_state = "lattice-dir-b"; dir = 5},/turf/space,/area)
+"cg" = (/obj/lattice{tag = "icon-lattice-dir-b (NORTHWEST)"; icon_state = "lattice-dir-b"; dir = 9},/turf/space,/area)
+"ch" = (/obj/machinery/door/airlock/pyro/external,/turf/unsimulated/floor{icon = 'icons/turf/floors.dmi'; icon_state = "floor"},/area/centcom)
+"ci" = (/turf/space/shuttle_transit,/area/shuttle_particle_spawn/west)
+"cj" = (/obj/machinery/shuttle/engine/propulsion{dir = 8; icon_state = "alt_propulsion"},/turf/space,/area/shuttle/escape/centcom)
+"ck" = (/turf/simulated/shuttle/wall,/area/shuttle/escape/centcom)
+"cl" = (/turf/simulated/shuttle/wall/corner{icon_state = "wall_space"; dir = 1},/area/shuttle/escape/centcom)
+"cm" = (/turf/simulated/shuttle/wall/corner{icon_state = "wall_space"; dir = 8},/area/shuttle/escape/centcom)
+"cn" = (/turf/simulated/shuttle/wall/escape{icon_state = "walldir"; dir = 4},/area/shuttle/escape/centcom)
+"co" = (/turf/simulated/shuttle/wall/escape{icon_state = "walldir"; dir = 5},/area/shuttle/escape/centcom)
+"cp" = (/obj/item/storage/wall/medical,/turf/simulated/shuttle/wall/escape{icon_state = "walldir"; dir = 8},/area/shuttle/escape/centcom)
+"cq" = (/turf/simulated/shuttle/wall/escape{icon_state = "walldir"},/area/shuttle/escape/centcom)
+"cr" = (/turf/simulated/shuttle/wall/escape,/area/shuttle/escape/centcom)
+"cs" = (/obj/window/auto/reinforced,/obj/grille/steel,/turf/simulated/shuttle/floor,/area/shuttle/escape/centcom)
+"ct" = (/obj/machinery/door/airlock/pyro/external,/turf/simulated/shuttle/floor,/area/shuttle/escape/centcom)
+"cu" = (/obj/grille/steel,/obj/window/auto/reinforced,/obj/machinery/shuttle/engine/heater{dir = 8; icon_state = "alt_heater-L"},/turf/simulated/floor/plating/airless,/area/shuttle/escape/centcom)
+"cv" = (/obj/machinery/sleeper{icon_state = "sleeper_0"; dir = 4},/turf/simulated/shuttle/floor{icon_state = "floor3"},/area/shuttle/escape/centcom)
+"cw" = (/obj/stool/chair/comfy/shuttle/green{icon_state = "shuttle_chair-green"; dir = 4},/turf/simulated/shuttle/floor{icon_state = "floor3"},/area/shuttle/escape/centcom)
+"cx" = (/turf/simulated/shuttle/wall/escape{icon_state = "walldir"; dir = 1},/area/shuttle/escape/centcom)
+"cy" = (/obj/stool/chair/comfy/shuttle{icon_state = "shuttle_chair"; dir = 4},/turf/simulated/shuttle/floor,/area/shuttle/escape/centcom)
+"cz" = (/turf/simulated/shuttle/floor,/area/shuttle/escape/centcom)
+"cA" = (/turf/simulated/shuttle/wall/corner{icon_state = "wall_floor"; dir = 2},/area/shuttle/escape/centcom)
+"cB" = (/obj/grille/steel,/obj/window/auto/reinforced,/obj/machinery/shuttle/engine/heater{dir = 8; icon_state = "alt_heater-M"},/turf/simulated/floor/plating/airless,/area/shuttle/escape/centcom)
+"cC" = (/obj/table/auto,/obj/random_item_spawner/med_kit,/turf/simulated/shuttle/floor{icon_state = "floor3"},/area/shuttle/escape/centcom)
+"cD" = (/turf/simulated/shuttle/floor{icon_state = "floor3"},/area/shuttle/escape/centcom)
+"cE" = (/obj/machinery/door/airlock/pyro/medical{dir = 4; opacity = 0},/turf/simulated/shuttle/floor,/area/shuttle/escape/centcom)
+"cF" = (/obj/window/auto/reinforced,/obj/grille/steel,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/escape/centcom)
+"cG" = (/obj/table/reinforced/auto,/obj/item/storage/toolbox/emergency,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/escape/centcom)
+"cH" = (/obj/table/reinforced/auto,/obj/item/device/radio,/obj/item/device/radio,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/escape/centcom)
+"cI" = (/turf/space,/area/shuttle/escape/centcom)
+"cJ" = (/obj/grille/steel,/obj/window/auto/reinforced,/obj/machinery/shuttle/engine/heater{dir = 8; icon_state = "alt_heater-R"},/turf/simulated/floor/plating/airless,/area/shuttle/escape/centcom)
+"cK" = (/obj/item/storage/wall/emergency{pixel_y = 4},/turf/simulated/shuttle/wall{opacity = 0},/area/shuttle/escape/centcom)
+"cL" = (/obj/stool/chair/comfy/shuttle/brown{icon_state = "shuttle_chair-brown"; dir = 4},/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/escape/centcom)
+"cM" = (/turf/simulated/shuttle/wall/cockpit/window{name = "window"},/area/shuttle/escape/centcom)
+"cN" = (/turf/simulated/shuttle/wall/escape{icon_state = "walldir"; dir = 8},/area/shuttle/escape/centcom)
+"cO" = (/turf/simulated/shuttle/wall/escape{icon_state = "walldir"; dir = 6},/area/shuttle/escape/centcom)
+"cP" = (/obj/window/auto/reinforced,/turf/simulated/shuttle/floor,/area/shuttle/escape/centcom)
+"cQ" = (/obj/machinery/door/airlock/pyro/command{dir = 4; opacity = 0},/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/escape/centcom)
+"cR" = (/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/escape/centcom)
+"cS" = (/obj/stool/chair/comfy/shuttle/brown{icon_state = "shuttle_chair-brown"; dir = 4},/obj/machinery/computer/shuttle/embedded/east,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/escape/centcom)
+"cT" = (/turf/simulated/shuttle/wall/cockpit,/area/shuttle/escape/centcom)
+"cU" = (/obj/stool/chair/comfy/shuttle/red{icon_state = "shuttle_chair-red"; dir = 4},/turf/simulated/shuttle/floor{icon_state = "floor4"},/area/shuttle/escape/centcom)
+"cV" = (/obj/item/storage/wall/fire,/turf/simulated/shuttle/wall{opacity = 0},/area/shuttle/escape/centcom)
+"cW" = (/turf/simulated/shuttle/wall/corner{dir = 4; icon_state = "wall_space"; opacity = 0},/area/shuttle/escape/centcom)
+"cX" = (/turf/simulated/shuttle/floor{icon_state = "floor4"},/area/shuttle/escape/centcom)
+"cY" = (/obj/machinery/door/airlock/pyro/security{dir = 4; opacity = 0},/turf/simulated/shuttle/floor,/area/shuttle/escape/centcom)
+"cZ" = (/obj/table/reinforced/auto,/obj/item/storage/firstaid/regular,/turf/simulated/shuttle/floor{icon_state = "floor2"},/area/shuttle/escape/centcom)
+"da" = (/turf/simulated/shuttle/wall/corner{icon_state = "wall_floor"; dir = 8},/area/shuttle/escape/centcom)
+"db" = (/turf/simulated/shuttle/wall/corner,/area/shuttle/escape/centcom)
+"dc" = (/turf/simulated/shuttle/wall/corner{icon_state = "wall_space"; dir = 4},/area/shuttle/escape/centcom)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaaacacacacacacacacacacacacac
+aaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaabadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaaaeaeaeaaacacacacacacacacacacacacac
+aaacacacacacacacacafafafafafafafafafafafafafafafacacacacacacacacaaabadagagagagagagagagagagagagahahahahahahahahahahahahahahahahahahahahagagagagagagagagagagagagagadabaaaeaiaeaaacacacacacacacacacacacacac
+aaacacacacacacacacafajajajajajajajajajajajajajafacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabaaaeaeaeaaacacacacacacacacacacacacac
+aaacacacacakalamanafajajajajajajajajajajajajajafacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabaaaaaaaaaaacacacacacacacacacacacacac
+aaacacakaoapaqaraoafajajasajajajajajajajajasajafacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacatauavawawaxayajajajajajajajajajajajajajafacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacatauawawawaxayajazajajajajazajajajajazajafacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacaAaoaBaCaDaoafafafaEaEaEaFafaFaEaEaEafafafacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacaAalamanafaGaHaGaIaJaJaKaJaJaLaGaHaGafacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacafafafafafafafaGaGaGaMaNaNaNaNaNaOaGaGaGafafafafafafafacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacaPacacacacacacacacacacacac
+aaacacafaQaRaRaRaSaRaRaRaTaMaNaNaNaNaNaOaUaRaRaRaSaRaRaRaVafacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacafaWaXaYaZaZaZbaaXbbaMbcaNbdaNbcaObeaXaYbfaZaZbaaXbgafacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacafbeaXbhbhbhbhbhaXbbaMaNaNaNaNaNaObeaXbhbhbhbhbhaXbbafacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacafbiaXbjbkblbmbnaXbbaMaNaNbcaNaNaObeaXbnboblbmbjaXbpafacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacafbqbrbrbrbrbrbrbrbsbtbubububububvbwbrbrbrbrbrbrbrbxafacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacafbyaGaGaGbzaGaGaGaGbzaGaGbzaGaGbzaGaGaGaGbzaGaGaGbAafacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacafaEaEaEaEbBbBafbCbCafbDafaEafbEafbCbCafbBbBaEaEaEaEafacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacaEbFbGafafafbHafafafbFbGafbIacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacbJbKbLbMaEbNaGaEbHbObObObHafaGaGafbIacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacbJbPbQbRbSbPaEaGaGaEbIacacacbTaEaGbUaEbIacacacacacacacacaaabadagagagagagagagagagagagagagagbVbVbVagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacbWbXbYbZbZcaayaGaGaEbIacacacbTaEaGaGaEbIacacacacacacacacaaabadagagagagagagagagagagagagbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacbWbXbZbZbZcaayaGaGaEbIacacacbTaEaGaGaEbIacacacacacacacacaaabadagagagagagagagagagagagagbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacaccbbPcccdcebPaEbNaGaEbIacacacbTaEaGaGaEbIacacacacacacacacaaabadagagagagagagagagagagagagbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacaccbbKbLbMaEaEaEaEcfacacaccgaEbNaGaEcfacacacacacacacacaaabadagagagagagagagagagagagagbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacacacacacacacacacafchchafacacacacacacacacacaaabadagagagagagagagagagagagagbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVciciagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacacacaccjckclacacafbFbGafacacacacacacacacacaaabadagagagagagagagagagagagagbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacaccmcncocpcqcrcsckctctckcscscrclacacacacacaaabadagagagagagagagagagagagagbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacaccjcucvcwcxcycycyczczcycycycAcrcrclacacacaaabadagagagagagagagagagagagagbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacaccjcBcCcDcEczczczczczcycycycycFcGcHclcIacaaabadagagagagagagagagagagagagbVbVbVbVbVbVbVbVbVbVbVbVbVbVbVagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacaccjcJcvcwcqcycycKczczczcycycycrcLcLcMclcIaaabadagagagagagagagagagagagagagagbVbVbVagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacaccncococNcOcycycPczczczczczczcQcRcScMcTcIaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacaccjcucUcUcxcycycVczczczcycycycrcLcLcMcWcIaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacaccjcBcUcXcYczczczczczcycycycycFcZcZcWcIacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacaccjcJcUcUcqcycycyczczcycycydacrcrcWacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacacdbcncocNcxckcsckctctckcscscrdcacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacacacaccjckdcacacacacacacacacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabadagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagadabacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabababababababababababababababababababababababababababababababababababababababababababababababababacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+"}

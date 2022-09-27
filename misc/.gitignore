@@ -1,0 +1,23 @@
+# DM build/intermediate files
+*.dmb
+*.rsc
+*.int
+*.lk
+
+# runtime generated files
+goonstation/data
+goonstation/data/*
+*.log
+goonstation/adventure
+
+# TODO: ignore config
+config.txt
+
+# Pre-processor related
+node_modules
+build
+.tmp
+.sass-cache
+/objectTreeBrowser/objectTree.txt
+/objectTreeBrowser/objectTree.xml
+/objectTreeBrowser/objectTree.json

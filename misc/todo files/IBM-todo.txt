@@ -1,0 +1,11 @@
+NEW PATHOLOGY!! - Replacement for current "enter advance into a terminal until you win GBS, then get banned" system.
+	-Revision of how diseases currently work: Instead of a bunch of disparate disease subtypes, one modular master disease.
+	-Current disease effects implemented as modules, with any variable module behavior controlled by DNA values.
+	-Not sure yet how to handle actual module discovery yet - Maybe a whole variety of sources, from bacterial cultures to scanning filthy station detritus (i.e. random trash, recovered artifacts, poo-covered assistants).
+	-Disease analysis and modification handled by DWAINE peripheral devices.
+	-Disease modules that allow for legit beneficial uses, without being completely nuts like panacea (Panacea cures everything, so it has to be high tier. But then nobody ever wants to work for it/pick it over real GBS and they end up getting a bunch of dangerous shit beforehand.)
+
+ID Card Revision - The access system is sound, but there are some clunky things regarding cards right now (Like pretty much everything involving cash)
+	-Addition of smartcard functionality by allowing them to store a file datum (Maybe even move access and stuff onto the file)
+	-RFID communications (Use for the radio system's range var!)  - I think RFIDs are neat do you think RFIDs are neat
+	-Standardized card reader (Swipe & RFID) device items.  Can you imagine a bomb set to go off when a specific person gets into range? I think that's neat.

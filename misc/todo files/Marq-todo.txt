@@ -1,0 +1,16 @@
+[general]
+- Remove this file
+
+[adventure]
+- Connect The Room to the T8 project somehow
+- Continue ARG shortly after cog2 release
+
+[vr]
+- Reverse Gauntlet <working title>
+
+[mobs]
+- Critter mobs. Port everything.
+
+[pathology]
+- Simplify.
+- It's harder, should make it better, faster, but not stronger. Refactoring never over.

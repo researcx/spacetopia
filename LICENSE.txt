@@ -1,0 +1,14 @@
+This codebase is under CC BY-NC-SA 3.0 (Attribution-NonCommercial-ShareAlike 3.0 Unported)
+
+Share — copy and redistribute the material in any medium or format
+Adapt — remix, transform, and build upon the material
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+Any code used from these codebases below is under GNU General Public License v3.0 (GNU GPL v3):
+/tg/station13
+/vg/station13
+Baystation12
+
+The licensing file for GNU GPL v3 is included in licensing/GPLv3.txt

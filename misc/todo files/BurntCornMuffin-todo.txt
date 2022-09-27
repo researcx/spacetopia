@@ -1,0 +1,103 @@
+-Sound: BYOND's sound datum is actually pretty powerful, and I'd like to see us make better use of it.
+	-Positional audio is possible using xyz vars on sound datum.  This seems an easy thing to try.
+	-Use of looping sounds a possibility for various soundscapes.  Need to experiment.
+		-A mob-contained soundscape controller may be necessary so I can stop the looped sound when they have left the area where the sound source is.
+	-Can occlude sounds based on obstacles and the like.  This is another experiment I can easily play with.
+-Robotics:
+	-Could do for some more content.
+		-Mechanics for implants and cyborg bits:
+			-Powered by glucose in human bloodstream.  Amount of glucose requirement scales with relative power of the enhancement.  Effect ranges from mild hypoglycemia to sucking down protein powder faster than Adam Jenson in the heat of battle.
+			-Failure to meet sugar requirements will engage a failsafe to shut down the parts.  This failsafe can be overridden, in which case the user stands a high chance of fainting should they not acquire sustenance.
+		- X-arms
+			- Attach item to arm to make the arm entirely dedicated to that item.  For cyborgs, this means that the slot for that arm is used for the item in that arm, and cannot be unloaded.  For humans, this means that the arm is permanently holding that item.
+			- Special steps should be taken to ensure that gun-arms aren't going to be constant and annoying.  Since every sec and their mother is going to want a stun-baton arm, a sec swipe wouldn't be enough.
+				- Could have a sort of 'research' system where the roboticist researches drivers for cybernetic limbs, implants, and cyborg enhancements.  That way, should terrible inventions occur, they'll occur long after everything has gone to hell anyway. (Maybe roll enhancements in with that, too?)
+				- Added benefit of having somebody competing with genetics for...research funds.
+		-Implants: Actually, implants has a pretty good framework already.  Time to think of some awesome implants for the roboticist to make.  Also, need a research minigame.  Maybe a puzzle where you match circuit boards to neurons?
+			- Implant types:
+				- HealMAX auto-healing implant: Slowly regain brute/fireloss, but at a massive glucose cost while healing.
+				- Pacemaker: Subject immune to heart failure, light glucose cost.  Has no failsafe.
+				- MetaboLIVE: Metabolizes reagents quickly, heals tox.  Free when consuming reagents, but a light to medium glucose cost otherwise.
+				- Reflex Implant <Needs a better name>: High chance of attacks missing, but uses a massive burst of glucose to do so.
+				- Carbon Nasal Filter: Makes CO2 breathable, burning moderate glucose while doing so
+				- Sight implants: Restores/enhances sight.  Selectable Thermal, x-ray mode?  Low glucose cost.
+				- Grounding Nanomatrix: stun time vastly reduced (maybe resist entirely?) Low glucose cost.
+				- Sunglasses implant: Because why the fuck not?  Small glucose cost to turn them on or off.
+				- RespawnMe implant: alerts security and medical when you die with where you died. Very small glucose cost
+				- Colorskin: change peoples skin colors! (note: risk of creepy blue people roleplay a possibility)
+				- Teleporter Remote: Teleporter automatically locks on and receives when the user says the key phrase, regardless of context.  This key phrase should be distinct, but common enough to cause hilarious accidental receive incidents. Low glucose cost.
+				- Marathon Implant: Run fast.  Medium glucose cost.
+				- Sensei Robustnik's Black Belt in a Shot: Disarms, Punches, Grabs are enhanced and more effective.  However, large glucose cost.
+				-I'm sure we can think of more.
+		- More robots
+			-Vendorbot - Vending machine + treads.  Trundles the halls and attempts to sell its wares.  Emagged causes it to do so...aggressively.  Programmable personalities, reloadable stock, hacking allows selection of where profits go, in terms of accounts.
+			-...I'll think of more...
+	-If they don't already, EMP grenades should do terrible things to cyborg limbs of any kind.
+-Critters:
+	-Stock AI is a bit limited: Can sit around and do nothing, wander around, defend themselves, or attack your choice of humans and cyborgs.
+	-Any behavior beyond this must be implemented for that critter alone.
+	-Not mobs: any interactions with anything beyond the above would require each target item to have custom critter code.
+	-Critters served their purpose, but are now too inflexible for some of the activities I want them to do.
+	-New AI framework
+	-Make them mobs
+-Engineering
+    -Heat transfer engine(Current)
+    	Pros:
+            Sufficiently difficult/nuanced
+            Involves fire.
+        Cons:
+            Too safe - not enough fatal or fun ways to fail spectacularly.  Most spectacular failure comes from running it perfectly.
+            Too well understood by players
+            Boring.  If people bother to run it, they usually start burning and fuck off after it's burned enough to stave off a power outage for the round.
+
+    Need to come up with a replacement that accomplishes the following:
+        - Sufficiently ss13-sci-fi to fit in.
+        - Can fail in fun ways.  Magnitude of failure should scale with the volitility of fuels/power generated, suggesting an advanced player who is up for a challenge.
+        - Requires care: but should accomplish this via fun and not by chores.  More care required depending on volatility/output.
+	- Simple enough for a newbie to run, but complex enough that only the spergiest can fully understand it.
+	-Make it an easy and worthwhile target for traitors to do terrible things to, be it simply break and deny the station power, or cause a catastrophic failure with some effort.
+	-This appears to be being worked on by others.
+
+-Random Events
+    - Syndicate Attack: random number and type of Syndicate drones spawn and attack the station.  The crew must fight them off.
+		- Adminbussed versions of this were met with very positive results.  The crew may get slaughtered, but they'll have much fun doing so.
+        - Will likely involve a behavior modification for syndie pod critters.
+        - Might be a little too stacked against crew, but you never know until you try...
+	- Pests: 
+		- Keep harmless/semi-harmless pests, but in one of the following forms:
+			- As minor event, i.e. some roaches crawl into the kitchen or wasps fly out of a vent or something.
+			- As QM annoyance that has a small chance of showing up in deliveries.  Maybe provide a nice little minigame for QM to deal with crippling NT bureaucracy in order to fix the fact that the weapons crate turned out to be a crate full of geese.
+		- Harmful pests, if they are ever brought back, should be fleshed out far more.  Right now, they mostly spawn, camp out and shoot the crew without being all that fun.
+			-Tests have shown far better response to dangerous critters that chase or are mobile, which put the station on edge more effectively and gets the crew working together to kill them.  With this in mind, I'm thinking that a dangerous spawn must appear in a suitably believable fashion (docking ports being ideal), have a specific goal they must travel to (Theft or Defacement only.  Never a kill player objective, that's just shitty), and get out when that goal is met.
+				-Candidates: Tomatoes, Martians, whatever other boogeymen I can think of.
+				-Non-candidates: those fucking gun-drones.  Fuck, I forgot how much they sucked.
+
+-Atmos
+    -It'd be nice to allow traitors to fuck with air, but rather than centralized atmos, which was hard to maintain and too abusable, just rely fully on local scrubbers. * Looks like this is a thing already.
+	-Should add Local Air Monitors so the AI and bots can get atmosphere composition of any part of the station.
+    -Engineer access to scrubbers/controls.
+	-Pumps are out of vogue.  Something about some asshole putting pumps all over old atmos.
+
+-Science
+    -Toxins should really have more things to do with plasma than burn it and make bombs.
+        -What does plasma exposure do to X?
+        -Small scale research plasma reactor of sorts? <-- That particle research idea could tie in really well with that.  Maybe have this eventually turn into a new engine on the next map?
+
+-Security
+    -Maybe add the ability to build and add cameras to a network?  Create new networks beyond what's in game?
+
+-Medical
+    -More diseases! * Wait until after disease overhaul if possible.
+    -Missing a right foot?  Replace it with a left foot and become clumsy!  I am a terrible human being.
+
+-General
+    -More build recipes with current items.
+    -Implement more lag.
+	
+	
+	
+Forum ideas I like:
+[quote="Toe Cheese" post="420495056"]
+There could be several types of kudzu to make it a bit more interesting. Maybe a variety that spawns space bees and has flowers that they hatch from. Another might spawn killer tomatoes or one that slows you down and has thorns to tear you apart. Right now all it does is grow and lag things up.
+[/quote]
+Maybe have kudzu soak up reagent and respond somehow?  I feel like this could be super laggy, unfortunately.
