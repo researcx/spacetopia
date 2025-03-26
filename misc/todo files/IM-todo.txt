@@ -1,0 +1,248 @@
+old:
+merge radiation + toxin icons into 'feeling bad' icon?
+gas tanks that fly about when damaged
+rad crossbow shoot through walls with reduced damage (gamma rays)?
+make space momentum/'space wind' work better
+beaker/igniter assemblies with prox and signal attachments
+
+new:
+PTSD
+aggressive limb removal (saw them off etc)
+coilgun
+finish the shady robot npc
+
+
+We had a discussion in IRC and the consensus was that this feature is OP by design and that there isn't a good way
+to balance it either. Your commit message stated "if it turns out to be broken for combat I will remove or change it"
+so I hope you can understand why we felt the need to do something. Sorry about ripping your code out, it's nothing personal (Convair880).
+
+///////////////////////////////////////////// action_controls.dm ////////////////////////////////
+
+//LIMB/HEAD SAWING
+
+/datum/action/bar/icon/limbRemoval //This is used when you try to remove someone's limbs violently (using the strip menu).
+	duration = 90
+	interrupt_flags = INTERRUPT_MOVE | INTERRUPT_ACT | INTERRUPT_STUNNED | INTERRUPT_ACTION
+	id = "limbremoval"
+	icon = 'icons/obj/items.dmi'
+	icon_state = ""
+	var/mob/living/carbon/human/target
+	var/obj/item/tool
+	var/part
+	var/part_text
+
+	New(Target,Tool,Part,PartText)
+		target = Target
+		tool = Tool
+		icon = tool.icon
+		icon_state = tool.icon_state
+		part = Part
+		part_text = PartText
+		duration = round(duration/tool.can_remove_parts)
+		..()
+
+	onUpdate()
+		..()
+		if(get_dist(owner, target) > 1 || target == null || owner == null || !target.has_limb(part))
+			interrupt(INTERRUPT_ALWAYS)
+			return
+
+		if(target.stat == 0 && target.stunned == 0 && target.weakened == 0 && target.paralysis == 0 && !target.restrained())
+			boutput(owner,"<span style=\"color:red\">[target.name] is struggling too much for you to cut their [part_text] off!</span>")
+			interrupt(INTERRUPT_ALWAYS)
+			return
+
+	onStart()
+		..()
+		if(get_dist(owner, target) > 1 || target == null || owner == null || !target.has_limb(part))
+			interrupt(INTERRUPT_ALWAYS)
+			return
+
+		if(target.stat == 0 && target.stunned == 0 && target.weakened == 0 && target.paralysis == 0 && !target.restrained())
+			boutput(owner,"<span style=\"color:red\">[target.name] is struggling too much for you to cut their [part_text] off!</span>")
+			interrupt(INTERRUPT_ALWAYS)
+			return
+
+		owner.visible_message("<span style=\"color:red\"><B>[owner.name] begins to cut off [target.name]'s [part_text] with the [tool.name]!</B></span>")
+		logTheThing("combat", owner, target, "began to cut off %target%'s [part_text] with a [tool.name].")
+
+		spawn(30)
+			if(src && src.state != ACTIONSTATE_DELETE && owner && target && target.has_limb(part))
+				owner.visible_message("<span style=\"color:red\"><B>[owner.name] slices through the skin and flesh of [target.name]'s [part_text]!</B></span>")
+				switch(part) //ugh
+					if("l_arm")
+						target.limbs.l_arm.remove_stage = 1
+					if("r_arm")
+						target.limbs.r_arm.remove_stage = 1
+					if("l_leg")
+						target.limbs.l_leg.remove_stage = 1
+					if("r_leg")
+						target.limbs.r_leg.remove_stage = 1
+
+				if(target.stat != 2)
+					if(prob(40))
+						target.emote("scream")
+				target.TakeDamage("chest",20,0)
+				take_bleeding_damage(target, null, 15, DAMAGE_STAB)
+
+		spawn(60)
+			if(src && src.state != ACTIONSTATE_DELETE && owner && target && target.has_limb(part))
+				owner.visible_message("<span style=\"color:red\"><B>[owner.name] cuts through the bone of [target.name]'s [part_text]!</B></span>")
+				switch(part) //ugh
+					if("l_arm")
+						target.limbs.l_arm.remove_stage = 2
+						spawn(rand(500,750))
+							if(target && target.limbs && target.limbs.l_arm && target.limbs.l_arm.remove_stage == 2) //interrupted before we could finish but it falls off anyway
+								target.lose_limb(part)
+					if("r_arm")
+						target.limbs.r_arm.remove_stage = 2
+						spawn(rand(500,750))
+							if(target && target.limbs && target.limbs.r_arm && target.limbs.r_arm.remove_stage == 2) //interrupted before we could finish but it falls off anyway
+								target.lose_limb(part)
+					if("l_leg")
+						target.limbs.l_leg.remove_stage = 2
+						spawn(rand(500,750))
+							if(target && target.limbs && target.limbs.l_leg && target.limbs.l_leg.remove_stage == 2) //interrupted before we could finish but it falls off anyway
+								target.lose_limb(part)
+					if("r_leg")
+						target.limbs.r_leg.remove_stage = 2
+						spawn(rand(500,750))
+							if(target && target.limbs && target.limbs.r_leg && target.limbs.r_leg.remove_stage == 2) //interrupted before we could finish but it falls off anyway
+								target.lose_limb(part)
+
+				if(target.stat != 2)
+					if(prob(40))
+						target.emote("scream")
+				target.TakeDamage("chest",20,0)
+				take_bleeding_damage(target, null, 15, DAMAGE_STAB)
+
+	onEnd()
+		..()
+		if(owner && target && target.has_limb(part))
+			owner.visible_message("<span style=\"color:red\"><B>[owner.name] severs the remaining strips of skin holding [target.name]'s [part_text] on with the [tool.name]!</B></span>")
+			target.lose_limb(part)
+			logTheThing("combat", owner, target, "cut off %target%'s [part_text] with a [tool.name].")
+
+/datum/action/bar/icon/headRemoval //This is used when you try to remove someone's limbs violently (using the strip menu).
+	duration = 150
+	interrupt_flags = INTERRUPT_MOVE | INTERRUPT_ACT | INTERRUPT_STUNNED | INTERRUPT_ACTION
+	id = "headremoval"
+	icon = 'icons/obj/items.dmi'
+	icon_state = ""
+	var/mob/living/carbon/human/target
+	var/obj/item/tool
+
+	New(Target,Tool)
+		target = Target
+		tool = Tool
+		icon = tool.icon
+		icon_state = tool.icon_state
+		duration = round(duration/tool.can_remove_parts)
+		..()
+
+	onUpdate()
+		..()
+		if(get_dist(owner, target) > 1 || target == null || owner == null || !target.organHolder || !target.organHolder.head)
+			interrupt(INTERRUPT_ALWAYS)
+			return
+
+		if(target.stat == 0 && target.stunned == 0 && target.weakened == 0 && target.paralysis == 0 && !target.restrained())
+			boutput(owner,"<span style=\"color:red\">[target.name] is struggling too much for you to cut their head off!</span>")
+			interrupt(INTERRUPT_ALWAYS)
+			return
+
+	onStart()
+		..()
+		if(get_dist(owner, target) > 1 || target == null || owner == null || !target.organHolder || !target.organHolder.head)
+			interrupt(INTERRUPT_ALWAYS)
+			return
+
+		if(target.stat == 0 && target.stunned == 0 && target.weakened == 0 && target.paralysis == 0 && !target.restrained())
+			boutput(owner,"<span style=\"color:red\">[target.name] is struggling too much for you to cut their head off!</span>")
+			interrupt(INTERRUPT_ALWAYS)
+			return
+
+		owner.visible_message("<span style=\"color:red\"><B>[owner.name] begins to cut off [target.name]'s head with the [tool.name]!</B></span>")
+		logTheThing("combat", owner, target, "began to cut off %target%'s head with a [tool.name].")
+
+		spawn(50)
+			if(src && src.state != ACTIONSTATE_DELETE && owner && target && target.organHolder && target.organHolder.head) //just in case
+				owner.visible_message("<span style=\"color:red\"><B>[owner.name] slices through the skin and flesh of [target.name]'s neck!</B></span>")
+				target.organHolder.head.op_stage = 1
+				if(target.stat != 2)
+					if(prob(40))
+						target.emote("scream")
+				target.TakeDamage("head",20,0)
+				take_bleeding_damage(target, null, 15, DAMAGE_STAB)
+
+
+		spawn(100)
+			if(src && src.state != ACTIONSTATE_DELETE && owner && target && target.organHolder && target.organHolder.head)
+				owner.visible_message("<span style=\"color:red\"><B>[owner.name] cuts through the bone of [target.name]'s neck!</B></span>")
+				target.organHolder.head.op_stage = 2
+				if(target.stat != 2)
+					if(prob(40))
+						target.emote("scream")
+				target.TakeDamage("head",50,0)
+				take_bleeding_damage(target, null, 15, DAMAGE_STAB)
+				target.weakened += 20
+
+				spawn(rand(750,1000))
+					if(target && target.organHolder && target.organHolder.head && target.organHolder.head.op_stage == 2) //interrupted before we could finish but it falls off anyway
+						target.organHolder.drop_organ("Head")
+
+	onEnd()
+		..()
+		if(owner && target && target.organHolder && target.organHolder.head)
+			owner.visible_message("<span style=\"color:red\"><B>[owner.name] severs the remaining strips of skin holding [target.name]'s head on with the [tool.name]!</B></span>")
+			target.organHolder.drop_organ("Head")
+			logTheThing("combat", owner, target, "cut off %target%'s head with a [tool.name].")
+
+////////////////////////////////////////////////////// human.dm ////////////////////////////////////////////////////////////////////
+
+--- Under /mob/living/carbon/human/proc/show_inv(mob/user as mob) ----
+
+	<BR>[(src.internal ? text("<A href='?src=\ref[src];slot=internal;item=internal'>Remove Internal</A>") : "")]"}
+
+	var/height = 480
+	var/obj/item/equipped = user.equipped()
+	if(equipped && equipped.can_remove_parts)
+		height = 600
+		dat += "<HR><B>Cut off:</B>"
+		var/none = 1
+		if(src.organHolder && src.organHolder.head)
+			dat += "<BR><A href='?src=\ref[src];remove=head;remove_text=head'>Head</A>"
+			none = 0
+		if(src.limbs)
+			if(src.limbs.l_arm)
+				dat += "<BR><A href='?src=\ref[src];remove=l_arm;remove_text=left arm'>Left Arm</A>"
+				none = 0
+			if(src.limbs.r_arm)
+				dat += "<BR><A href='?src=\ref[src];remove=r_arm;remove_text=right arm'>Right Arm</A>"
+				none = 0
+			if(src.limbs.l_leg)
+				dat += "<BR><A href='?src=\ref[src];remove=l_leg;remove_text=left leg'>Left Leg</A>"
+				none = 0
+			if(src.limbs.r_leg)
+				dat += "<BR><A href='?src=\ref[src];remove=r_leg;remove_text=right leg'>Right Leg</A>"
+				none = 0
+		if(none) dat += "<BR>[src.name] has nothing to cut off!"
+
+	dat += "<HR><BR><A href='?action=mach_close&window=mob[src.name]'>Close</A>"
+
+	user << browse(dat, text("window=mob[src.name];size=340x[height]"))
+	onclose(user, "mob[src.name]")
+	return
+
+--- Under /mob/living/carbon/human/Topic(href, href_list) ----
+
+		else if (href_list["remove"] == "head")
+			if(src.stat == 0 && src.stunned == 0 && src.weakened == 0 && src.paralysis == 0 && !src.restrained())
+				boutput(usr,"<span style=\"color:red\">You need to stop [src.name] from moving before you can cut their head off!</span>")
+				return
+			actions.start(new/datum/action/bar/icon/headRemoval(src, usr.equipped()), usr)
+		else if (href_list["remove"])
+			if(src.stat == 0 && src.stunned == 0 && src.weakened == 0 && src.paralysis == 0 && !src.restrained())
+				boutput(usr,"<span style=\"color:red\">You need to stop [src.name] from moving before you can cut their [href_list["remove_text"]] off!</span>")
+				return
+			actions.start(new/datum/action/bar/icon/limbRemoval(src, usr.equipped(), href_list["remove"], href_list["remove_text"]), usr)

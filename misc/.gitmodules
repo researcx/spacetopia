@@ -1,0 +1,3 @@
+[submodule "goonstation/browserassets"]
+	path = goonstation/browserassets
+	url = git@bitbucket.org:spacewizards13/goonstation-browserassets.git

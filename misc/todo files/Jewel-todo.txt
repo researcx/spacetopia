@@ -1,0 +1,46 @@
+Fun Ideas:
+	Traitor Item - Bowling Ball:
+		Features:
+			Throw to roll and knock people over.
+			When thrown, if wearing the jumpsuit, makes user say random goofy bowling lines.
+
+		Potential Lines:
+			On Hit:
+				"Who's the kingpin now, baby?"
+				"STRIIIKE!"
+				"Watch it, pinhead!"
+				"Ten points!"
+
+			When Knocked down:
+				"Spare me!"
+				"C'mon, I was going for 300!"
+				"It was these damn shoes!"
+				"I slipped on the lane!"
+		
+		Avaliability:
+			Can only get in Bowling Kit.
+	
+	Traitor Item - Bowling Kit:
+		Features:
+			Includes 3 bowling balls and a bowling suit.
+			
+		Avaliability:
+			<X> telecrystals.
+			
+	Remake ButtLauncher for new version (Old version completely doesn't work with the revamped gun system)
+
+Useful Ideas:
+	Add more pipes. See: Pipes.
+	Add more powers and randomize the power pool at the start of a round to choose 4 of them.
+	Give the bar area a booze dispenser similar to Chemistry that needs to be stocked with raw materials from botany
+	
+Pipes:
+	Pipe that strips mobs
+	Pipe that sends mobs one way, and sends all items another way.
+	Security pipe that dresses mobs in an orange suit + gives it an assistant ID.
+	
+Revamps:
+	Make pipe bombs able to be made with prox sensors and remotes as well.
+	REVAMP PIPE SYSTEM
+	Add lots more items for electrician to scan!
+	Make IR sensor send a signal on a frequency when triggered.

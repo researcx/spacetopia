@@ -1,0 +1,97 @@
+Chemicompiler V1.0
+By Volundr
+
+NOT FOR DISTRIBUTION -- CONTAINS PROPRIETARY TRADE SECRETS 
+(lol... seriously don't give out this info or it will ruin the fun)
+ 
+machine has 5 registers, 1024 bytes of RAM, and 10 reagent 
+
+reservoirs that can be any reagent_container/glass item.
+it also has a pill generator, a vial generator, and an eject port.
+ 
+registers:
+ptr = data pointer (16-bit) (data is 0-indexed)
+iptr = instruction pointer (16-bit) (1-indexed)
+sx = source register (8-bit) (valid sources are 1-10 for the 1 thru 
+
+10 reagent reservoirs) in the machine
+tx = target register (16-bit) (valid targets are reservoirs as 
+
+above, or 11 for pill generator, 12 for vial generator, or 13 for 
+
+ejection port)
+ax = amount register (16-bit)
+ 
+> = ++ptr
+< = --ptr
++ = ++*ptr
+- = --*ptr
+[ = while (*ptr) {
+] = }
+{ = mov *ptr sx
+} = mov sx *ptr
+( = mov *ptr tx
+) = mov tx *ptr
+^ = mov *ptr ax
+' = mov ax *ptr
+$ = heat or cool reagent in sx to ((273 - tx) + ax) kelvin
+@ = transfer ax units of reagent from reservoir sx to target tx 
+~ = "compile" the code so it cannot be retrieved again via the load button.
+
+(generates pill or vial if they are targeted, or sends regs out 
+
+ejector port)
+
+Both the heating and transferring steps are delayed. Heating takes as long as the chemistry lab heater would take. Transferring reagents takes 1/4 * amount seconds.
+
+*************
+* EXAMPLE 1 *
+*************
++++++++++ set *d0 to 9		dp = 0
+} set sx = *d0			dp = 0
+>>++ set *d2 to 2		dp = 2
+[
+  <				dp = 1
+  { *d1 = 9 = sx
+  [-<+>] add *d1 to *d0		dp = 1
+  >-				dp = 2
+]
+<<' set ax to 27
+( set *d0 to 0
+++} set sx to 2
+++) set tx to 4
+@ transfer reagents
+} set sx to 4
++' set ax to 5
+++++++) set tx to 11
+@ transfer reagents
+
+***********
+* SUMMARY *
+***********
+1. transfer 27ml from r2 to r4
+2. transfer 5ml from r4 to pill
+
+*****************
+* END EXAMPLE 1 *
+*****************
+
+*************
+* EXAMPLE 2 *
+*************
+++++	set *d0 to 4
+}	set sx to 4
++	set *d0 to 5
+'	set ax to 5
+++++++	set *d0 to 11
+)	set tx to 11
+@	transfer reagents
+
+***********
+* SUMMARY *
+***********
+1. transfer 5ml from r4 to pill
+
+*****************
+* END EXAMPLE 2 *
+*****************

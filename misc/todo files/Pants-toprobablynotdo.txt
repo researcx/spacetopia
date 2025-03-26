@@ -1,0 +1,74 @@
+~*~ OK I think I've hashed it out and here is the entire Manufacturing/Recycling process ~*~
+*~* Note: I might change some of this later. Or not. Who knows. *~*
+
+All current objects should be recyclable and broken down into three raw materials.
+
+Scrap Materials:
+   Metal Scrap
+   Glass Scrap
+   Carbon Scrap (This is sort of a catch-all for anything that doesn't fall into the first two categories. So things like clothing, plastics, even biomaterials e.g. food, etc.)
+
+Raw Materials:
+   Metal Ore
+   Silicate Ore (for glass)
+   BioPlastic (*new* can be made from plants)
+
+
+Recycling Objects:
+
+[*] Grinder
+   Grinds disposed items into scrap metal, glass, carbon, or some combination thereof
+
+[*] Seperator
+   Seperates scrap into its components.
+
+
+Manufacturing objects:
+
+Each tier of manufacturing objects can create both items of increasing complexity, and the requisite components to create the higher tier manufacturing objects.
+
+TIER 1
+
+[*] Induction Furnace
+   Melts scrap metal/glass and/or ore into molten sheets.
+
+[*] Press Forge
+   Takes molten metal and presses it into flat or angular forms. (Tiles, etc.)
+
+[*] Wire / Rod Mill
+   Takes molten metal and mills it into rods or wire.
+
+[*] Metal Roller
+   Takes molten metal and creates cylindrical or conical forms. (pipes, etc.)
+
+TIER 2
+
+[*] BioPlastics Extruder
+   Enables plastics production. Can create plastic profiles.
+
+[*] Welding Torch Table
+   Takes tier 1 metal forms and can cut more complex metal forms.
+
+[*] IronWorker
+   Takes tier 1 metal forms and can create more complex metal forms.
+
+TIER 3
+
+[*] CNC Laser Cutter
+   Takes tier 2 metal forms and can cut more intricate, precision designs.
+
+[*] CNC Surface Grinder
+   Takes tier 2 metal forms and can create more intricate, precision designs.
+
+[*] 3D Printer
+   Can create printed plastic parts
+
+TIER 4
+
+[*] CNC Multimachine
+   An all purpose machine tool that can perform all the functions of an entire machine shop by itself. (Think autolathe. It's actually a real thing, check it out: http://en.wikipedia.org/wiki/Multimachine )
+
+[*] CNC Circuit Mill
+   Can create electronic components, PCBs, etc. from precision tier 3 metal forms.
+
+do a thing

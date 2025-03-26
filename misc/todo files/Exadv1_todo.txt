@@ -1,0 +1,27 @@
+TODO:
+
+ITEMS TO ADD:
+	Atmospherics Interface Elements
+
+ADD NEW POWER REACTOR (where 'engine' is)
+	Will be a nuclear fusion -> steam plant design
+	Will use intertial confinement model for maximal chance of... accidents
+	
+	Necessary compinents:
+		Fuel Preparation Subsystem - grabs H2 and forms fuel pellets, preheats them somewhat, loads into fuel injection system
+		Laser Generation Subsystem - creates, focuses, and directs the VERY HIGH energy laser for fuel ignition
+		Main Reactor Core - Accepts laser energy and fuel to produce heat
+			Waste Disposal/Reactor Coolant - Keeps main reactor core operating properly
+		Cooling Subsystem - Cools the steam/water down from the cold loop
+		Control Room - monitors the status of everything
+
+	Possible points of failure:
+		Laser components burn out/need replaced - laser no longer has enough energy for ignition
+		Reactor Core overheats and degrades (especially if run at high output) - heat pours out into environment
+		Core Coolant Rods deplete - thermal runaway
+		etc.
+
+CONCEPTS TO IMPLEMENT:
+	High pressure causes windows to shatter
+
+	Human movement on space tiles

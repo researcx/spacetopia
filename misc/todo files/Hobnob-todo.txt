@@ -1,0 +1,29 @@
+Todo for trunk/dev
+
+
+* Laser fusion engine
+	* start with optics system	
+
+
+
+
+* Container descriptions
+	x via get_desc()
+	x Named colours for open or transparent containers esp. beakers, drinking glasses
+	x Beakers & similar get total contents in units (scale)
+	x Others get approx fullness scale
+	x Remove exact reagent contents from beakers
+	x Add spectro-goggles for chemisty, pathology, HoR
+	x Add spectro ability to chemborgs
+	* Change visible fluid icons: use colour blending + levels of fullness?
+
+* Finish recycling
+	* Grinder, hopper, conveyor, diverter: control, behaviour, special cases etc.
+	* Forge, extruder, crusher
+
+* Wireless network for remote control and access-verification
+	* Network relay
+	* Master security computer
+	* Traitor/emp to disrupt
+
+* Local power net instead of area power

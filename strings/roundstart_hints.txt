@@ -1,0 +1,18 @@
+Did you know you can pull people and items using ctrl+click?
+Did you know you can examine people and items using alt+click?
+Did you know you can adminhelp by pressing F1?
+Did you know you can mentorhelp by pressing F3?
+Did you know you can talk in OOC by pressing alt+c?
+Did you know you can talk in LOOC by pressing alt+l?
+Did you know that if you press E, you switch active hands?
+Did you know that if you press C, you click on your active item?
+Did you know that if you press V, it equips the item in your active hand, if it is possible to do so?
+Did you know that if you press G, it switches focus to your command bar?
+Did you know that if you press X, you toggle throw mode?
+Did you know that if you press P, you toggle point mode?
+Did you know that if you press B, you point where you click?
+Did you know that if you press Q, you drop the item in your active hand?
+Did you know that if you press the numbers 1-4 it switches your intent?
+As a robot or the AI, did you know if you ctrl+click, you open a door?
+As a robot or the AI, did you know if you shift+click, you bolt and unbolt a door?
+As a robot or the AI, did you know by using the number keys you select slots? 4 deactivates your selected slot.

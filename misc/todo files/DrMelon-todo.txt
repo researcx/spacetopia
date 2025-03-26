@@ -1,0 +1,17 @@
+*************************
+	Short Term
+*************************
+
+[] Space Exploration becomes more dangerous without being cheap.
+    Space Exploration, as it stands now, is a jaunty little trip for any miner or engineer who decides to go frolicking merrily around space, usually with the intention of getting one or more high-power items, with little-to-no risk of failure and no sense of dread or trepidation. In my opinion, space exploration should be something very risky (without there being cheap deaths, like OH NO YOU OPENED A DOOR, A MILLION YETIS COME OUT) with a sense of fear & rumour attached. The more rumours about deep space which circulate wildly among the community, the better - especially if these rumours warn players from going if they want to survive that round. 
+
+Ideally, this would be accomplished by having less chance of finding something good - randomizing the prizes available (and possibly picking from different station layouts) in off-station areas would increase a player's doubt about finding a rocketlauncher or whatever. Dread/fear should be done with atmospheric effects - darkness is always a good one, and there should be some way to interfere with the player's sense of having seen something or not - did something move at the very edge of vision or was that just their imagination? 
+The original X-COM games did this very well, by providing an element of the unknown - all the critters that currently exist in-game are well known and not so much avoided as charged towards. Something unpredictable and new could disorient a player. 
+For example, you could have a critter which, upon being sighted by someone, immediately makes that person black out, move a few tiles in some direction, and wake up. This would confuse the player and make them fear seeing these creatures - which could lead them into dangerous situations. 
+
+*************************
+	Long Term
+*************************
+
+[] Combat Overhaul
+   	  Combat, as it exists now, consists of nothing more than clicking furiously on someone - whether it's firing a gun, or disarming someone and beating them with a fire extinguisher. I'd love to make combat less about who has the better internet connection and more about who is thinking properly before engaging. No idea how I could implement this without frustrating people though; I'd have to streamline it some way and have it make sense in some manner. A complex interface is very likely to be out of the question. 

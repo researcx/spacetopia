@@ -1,0 +1,33 @@
+Redesign of diposal system:
+
+The general functionality and layout of the disposal system will remain somewhat similar. The proposal is to add the ability for players to manually crawl through the disposal system however this leads to a few design concerns.
+
+How will they be able to see/navigate?
+The disposalobj which carries them will add 5 icons to the affected players screen. These will show the pipe on their current tile and the surrounding 4 tiles. Their movement key strokes are relayed to the disposalholder which allows them to move. Movement will not be allowed if the disposalobj is currently being propelled by >0.5 atm of air pressure.
+
+Note, they can get stuck if there are large objects (like another person in their way). These are represented as a square on that 'tile.' Clicking on the square with hands in disarm stance attempts to shove the object away and attacks it in harm stance. Clicking with an item 'uses' the item on the object. (The Click is relayed through the screen object to the offending object.). If an object is hit while being pushed by air and is too large to be consumed into the moving disposalholder then 1/2 of the disposalholder air goes into creating a new disposalholder that then affects the other object.
+
+Note, the player has the object of 'attacking' the pipes they are in to try and break them (preferably they are using a tool and not their weak hands.) The use of  welders in a confined space is strongly discouraged (has a high chance of causing incidents).
+
+
+How will they breathe?
+Use of internals is expected when not travelling with a burst of air. Players without internals who enter the tunnels without air or are stopped (and their air pressure dissipates) will slowly start suffocating. When travelling along air they can 'breath' the air they are travelling with.
+
+
+What disposal system objects will be available?
+2-way pipe - fairly straightforward and is a crucial component
+
+Gate - only allows travel in 1 direction. Objects being propelled by air see the air pressure hitting it reduced as they are bounced back in the opposite direction. This is used to restrict access via the disposal system.
+
+3-way pipe - also fairly striaghtforward. Objects propelled by air have a 50% chance of going down either channel (however, half of the air pressure will split into the other tunnel). Note, if one of the possible output channels is a gate with its output into the 3-way pipe then the pressure is not split and the person will go down the non-gated tunnel.
+
+Booster - Refreshs the air pressure of objects passing through (an air burst not carrying objects will not trigger the refresh but can still travel through). Objects passing through are 'held' for 1 second or until proper air pressure is built. Needs to recharge occasionally. Someone on the station (not in pipe) can trigger an air burst out from this machine.
+
+In/Out node - This is the node found in most of the rooms. It can start an air burst (possibly carrying objects).
+
+Out node - Can only exit this node. Used at the outputs.
+
+
+Possible extensions:
+Allow the pipes to gradually build up some air (due to failures or even just in regular use) lowering the effectiveness of air bursts. The in/out nodes and boosters can restore the vacuum. This would allow us to use this system to create pipes that actually are meant for people to traverse. (They would be kept at 1 atm so people can breathe.)
+Code would be copied from /atmospherics to handle air movements.

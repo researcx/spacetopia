@@ -1,0 +1,23 @@
+Lighting:
+	- Fix objects with no lighting having their affected tiles list as not null, should give a theoretical (infinitely small) performance boost to del()
+
+- Rewrite foam
+- Rewrite build mode
+- Rewrite the shuttle controller
+
+- Cyborg click needs some work
+
+- Do further work on clicking by adding attack()
+
+Things which need layering adjustments:
+	Cobwebs
+	The boxing ring ropes
+
+Fine tune explosions:
+	Add brisance value
+	Adjust mining explosives and welding tanks
+
+optimize the shell tool menu?
+same probably goes for the borg upgrade menu, remakes the screens
+
+that or pooling for screen objects

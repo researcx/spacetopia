@@ -1,0 +1,7 @@
+sofia's guide on how to readd what she took out
+
+to readd machoman.dm, uncomment things with sofia machoman removal, then delete duplicate procs.
+to readd the april fools uniforms, aka suit_aprilfools.dm, put the alternate labcoats back nto suit folders and the engineer one into suit_armor
+then retick the file
+
+to readd gauntlet and colosseum, search for colosseum removal, gauntlet removal, colosseum and gauntlet removal and uncomment, readd arena.dm
